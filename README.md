@@ -30,3 +30,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 ## Dictionaries and translators
 
 * curl 'dict://dict.org/d:command line'
+
+## Messages/texts/fortunes generators
+
+* whatthecommit.com
