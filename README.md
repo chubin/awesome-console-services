@@ -33,4 +33,4 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## Messages/texts/fortunes generators
 
-* ```git commit -m `curl -s https://whatthecommit.com/index.txt````
+* `git commit -m $(curl -s https://whatthecommit.com/index.txt)`
