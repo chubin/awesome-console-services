@@ -13,6 +13,11 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `curl ip-addr.es`
 * `dig +short myip.opendns.com @resolver1.opendns.com`
 
+## IP-based geolocation
+
+* `curl ipinfo.io/8.8.8.8` or `curl ipinfo.io/8.8.8.8/loc`
+* `curl freegeoip.net/csv/8.8.8.8` or `freegeoip.net/xml/4.2.2.2` or `freegeoip.net/json/github.com`
+
 ## Text Sharing (like pastebin)
 
 * `ix.io`
