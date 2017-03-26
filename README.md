@@ -39,10 +39,10 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## Messages/texts/fortunes/names generators
 
-* `git commit -m $(curl -s https://whatthecommit.com/index.txt)`- generate random commit message
-* `curl -H 'Accept: text/plain' foaas.com/cool/:from` - fuck off as a service
-* `curl -s https://uinames.com/api/?region=france\&amount=25 | jq '.[] | .name +" " + .surname'` - generate 25 random french names
+* `git commit -m $(curl -s https://whatthecommit.com/index.txt)` — generate random commit message
+* `curl -H 'Accept: text/plain' foaas.com/cool/:from` — fuck off as a service
+* `curl -s https://uinames.com/api/?region=france\&amount=25 | jq '.[] | .name +" " + .surname'` — generate 25 random french names
 
 ## Games and fun
 
-* `nc towel.blinkenlights.nl 23` -- watch StarWars in terminal
+* `nc towel.blinkenlights.nl 23` — watch StarWars in terminal
