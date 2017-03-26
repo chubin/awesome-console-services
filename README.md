@@ -41,3 +41,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 * `git commit -m $(curl -s https://whatthecommit.com/index.txt)`
 * `curl -H 'Accept: text/plain' foaas.com/cool/:from`
+
+## Games and fun
+
+* `nc towel.blinkenlights.nl 23` -- watch StarWars in terminal
