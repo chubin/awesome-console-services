@@ -30,17 +30,18 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## Weather 
 
-* `curl wttr.in or curl wttr.in/Berlin`
+* `curl wttr.in` or `curl wttr.in/Berlin` - the right way to check the weather 
 * `finger oslo@graph.no`
 
 ## Dictionaries and translators
 
 * `curl 'dict://dict.org/d:command line'`
 
-## Messages/texts/fortunes generators
+## Messages/texts/fortunes/names generators
 
-* `git commit -m $(curl -s https://whatthecommit.com/index.txt)`
-* `curl -H 'Accept: text/plain' foaas.com/cool/:from`
+* `git commit -m $(curl -s https://whatthecommit.com/index.txt)`- generate random commit message
+* `curl -H 'Accept: text/plain' foaas.com/cool/:from` - fuck off as a service
+* `curl -s https://uinames.com/api/?region=france\&amount=25 | jq '.[] | .name +" " + .surname'` - generate 25 random french names
 
 ## Games and fun
 
