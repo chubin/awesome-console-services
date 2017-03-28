@@ -26,7 +26,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## URL shortener
 
-* curl -s http://tinyurl.com/api-create.php?url=http://www.google.com
+* `curl -s http://tinyurl.com/api-create.php?url=http://www.google.com`
 
 ## File Transfer
 
