@@ -24,6 +24,10 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `sprunge.us`
 * `ptpb.pw`
 
+## URL shortener
+
+* curl -s http://tinyurl.com/api-create.php?url=http://www.google.com
+
 ## File Transfer
 
 * `curl --upload-file <file> transfer.sh/<filename>`
