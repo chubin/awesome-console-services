@@ -37,6 +37,10 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `curl wttr.in` or `curl wttr.in/Berlin` - the right way to check the weather 
 * `finger oslo@graph.no`
 
+## Manuals, cheat sheets and FAQs
+
+* `curl cheat.sh/tar`
+
 ## Dictionaries and translators
 
 * `curl 'dict://dict.org/d:command line'`
