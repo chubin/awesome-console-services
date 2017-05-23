@@ -39,7 +39,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## Manuals, cheat sheets and FAQs
 
-* `curl cheat.sh/tar`
+* `curl cheat.sh` [chubin/cheat.sh](https://github.com/chubin/cheat.sh)
 
 ## Dictionaries and translators
 
