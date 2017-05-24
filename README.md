@@ -39,7 +39,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## Manuals, cheat sheets and FAQs
 
-* `curl cheat.sh` - UNIX/Linux commands cheat sheets using curl [chubin/cheat.sh](https://github.com/chubin/cheat.sh)
+* `curl cheat.sh` - UNIX/Linux commands cheat sheets using curl ([chubin/cheat.sh](https://github.com/chubin/cheat.sh))
 
 ## Dictionaries and translators
 
@@ -54,4 +54,4 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 ## Chats, games and fun
 
 * `nc towel.blinkenlights.nl 23` — watch StarWars in terminal
-* `ssh chat.shazow.net` — chat over SSH [shazow/ssh-chat](https://github.com/shazow/ssh-chat)
+* `ssh chat.shazow.net` — chat over SSH ([shazow/ssh-chat](https://github.com/shazow/ssh-chat))
