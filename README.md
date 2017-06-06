@@ -32,6 +32,10 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 * `curl --upload-file <file> transfer.sh/<filename>`
 
+## Tools
+
+* `curl qrenco.de/STRING-to-be-ENCODED` or `echo STRING | curl -F-=\<- qrenco.de` — create QR-code for a string ([chubin/qrenco.de](https://github.com/chubin/qrenco.de))
+
 ## Weather 
 
 * `curl wttr.in` or `curl wttr.in/Berlin` - the right way to check the weather 
