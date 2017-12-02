@@ -41,6 +41,10 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `curl wttr.in` or `curl wttr.in/Berlin` - the right way to check the weather 
 * `finger oslo@graph.no`
 
+## Exchange rates and financial information
+
+* `curl rate.sx` - get cryptocurrencies exchange rates 
+
 ## Manuals, cheat sheets and FAQs
 
 * `curl cheat.sh` - UNIX/Linux commands cheat sheets using curl ([chubin/cheat.sh](https://github.com/chubin/cheat.sh))
