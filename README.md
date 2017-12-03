@@ -44,6 +44,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 ## Exchange rates and financial information
 
 * `curl rate.sx` - get cryptocurrencies exchange rates 
+* `curl moneroj.org` - get Monero exchange rate
 
 ## Manuals, cheat sheets and FAQs
 
