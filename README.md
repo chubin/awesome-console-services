@@ -23,10 +23,12 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `ix.io`
 * `sprunge.us`
 * `ptpb.pw`
+* `0x0.st`
 
 ## URL shortener
 
 * `curl -s http://tinyurl.com/api-create.php?url=http://www.google.com`
+* `curl -F c=@- https://ptpb.pw/u <<< http://www.google.com`
 
 ## File Transfer
 
