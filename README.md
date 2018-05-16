@@ -12,6 +12,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `curl ifcfg.me`
 * `curl ip-addr.es`
 * `dig +short myip.opendns.com @resolver1.opendns.com`
+* `curl ident.me` (see http://api.ident.me/ for the full API reference).
 
 ## IP-based geolocation
 
