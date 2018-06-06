@@ -25,6 +25,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `sprunge.us`
 * `ptpb.pw`
 * `0x0.st`
+* `clbin.com`
 
 ## URL shortener
 
