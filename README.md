@@ -26,6 +26,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `ptpb.pw`
 * `0x0.st`
 * `clbin.com`
+* `echo "Hello world!" | nc termbin.com 9999`
 
 ## URL shortener
 
