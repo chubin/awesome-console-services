@@ -77,6 +77,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `nc towel.blinkenlights.nl 23` — watch StarWars in terminal
 * `ssh chat.shazow.net` — chat over SSH ([shazow/ssh-chat](https://github.com/shazow/ssh-chat))
 * `curl parrot.live` — display an animated party parrot ([hugomd/parrot.live](https://github.com/hugomd/parrot.live))
+* `curl byemck.atulr.com` — display animated goodbye message for colleagues ([master-atul/byemck](https://github.com/master-atul/byemck))
 
 ## Clients
 
