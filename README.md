@@ -33,6 +33,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 * `curl -s http://tinyurl.com/api-create.php?url=http://www.google.com`
 * `curl -F c=@- https://ptpb.pw/u <<< http://www.google.com`
+* `curl -X POST --data "http://google.com" http://iret.ml/shorten`
 
 ## File Transfer
 
