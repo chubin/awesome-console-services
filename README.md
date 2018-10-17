@@ -80,6 +80,10 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `curl parrot.live` — display an animated party parrot ([hugomd/parrot.live](https://github.com/hugomd/parrot.live))
 * `curl byemck.atulr.com` — display animated goodbye message for colleagues ([master-atul/byemck](https://github.com/master-atul/byemck))
 
+## Internet speed test
+
+* `curl -s dl.getipaddr.net/speedtest.sh -o- | bash`
+
 ## Clients
 
 At least on of the clients, that you need to access these services, is installed in almost every UNIX/Linux system.
