@@ -82,7 +82,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## Internet speed test
 
-* `curl -s dl.getipaddr.net/speedtest.sh -o- | bash`
+* `curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -`
 
 ## Clients
 
