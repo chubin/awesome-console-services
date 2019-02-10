@@ -9,7 +9,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `curl icanhazip.com`
 * `curl curlmyip.net`
 * `curl ipecho.net/plain`
-* `curl ifcfg.me`
+* `curl ifconfig.pro`
 * `curl ip-addr.es`
 * `dig +short myip.opendns.com @resolver1.opendns.com`
 * `curl ident.me` (see http://api.ident.me/ for the full API reference)
