@@ -15,6 +15,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `curl ident.me` (see http://api.ident.me/ for the full API reference)
 * `curl ipaddr.site`
 * `curl ifconfig.co`
+* `curl echoip.de` (see https://www.echoip.de/)
 
 ## IP-based geolocation
 
