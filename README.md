@@ -53,6 +53,10 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `curl wttr.in` or `curl wttr.in/Berlin` - the right way to check the weather 
 * `finger oslo@graph.no`
 
+## News
+
+* `curl getnews.tech/world+cup` - fetch the latest news
+
 ## Map
 
 * `telnet mapscii.me` - show a zoomable world map
