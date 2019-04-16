@@ -27,7 +27,6 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 * `ix.io`
 * `sprunge.us`
-* `ptpb.pw`
 * `0x0.st`
 * `clbin.com`
 * `echo "Hello world!" | nc termbin.com 9999`
@@ -35,7 +34,6 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 ## URL shortener
 
 * `curl -s http://tinyurl.com/api-create.php?url=http://www.google.com`
-* `curl -F c=@- https://ptpb.pw/u <<< http://www.google.com`
 * `curl -X POST --data "http://google.com" http://iret.ml/shorten`
 
 ## File Transfer
