@@ -99,3 +99,4 @@ At least on of the clients, that you need to access these services, is installed
 * [curl](https://github.com/curl/curl)
 * [httpie](https://github.com/jakubroztocil/httpie) — modern command line HTTP client
 * [wget](https://www.gnu.org/software/wget/)
+* [wget2](https://gitlab.com/gnuwget/wget2)
