@@ -46,7 +46,6 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 ## Geolocation
 
 * `curl ipinfo.io/8.8.8.8` or `curl ipinfo.io/8.8.8.8/loc`
-* `curl freegeoip.net/csv/8.8.8.8` or `freegeoip.net/xml/4.2.2.2` or `freegeoip.net/json/github.com`
 * `curl ifconfig.co/country` or `curl ifconfig.co/city` or `curl ifconfig.co/country-iso` or `http ifconfig.co/json`
 
 ## Text Sharing (like pastebin)
@@ -72,7 +71,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## Monitoring
 
-* curl ping.gg
+* `curl ping.gg`
 
 ## Weather 
 
@@ -123,6 +122,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 At least on of the clients, that you need to access these services, is installed in almost every UNIX/Linux system.
 
-* [curl/curl](https://github.com/curl/curl)
+* [curl](https://github.com/curl/curl)
 * [httpie](https://github.com/jakubroztocil/httpie) — modern command line HTTP client
-* wget 
+* [wget](https://www.gnu.org/software/wget/)
+* [wget2](https://gitlab.com/gnuwget/wget2)
