@@ -1,6 +1,25 @@
 # awesome-console-services
 A curated list of awesome console services (reachable via HTTP, HTTPS and other network protocols)
 
+  - [awesome-console-services](#awesome-console-services "awesome-console-services")
+      - [IP address](#IP-address "IP address")
+      - [IP-based geolocation](#IP-based-geolocation "IP-based geolocation")
+      - [Text Sharing (like
+        pastebin)](#Text-Sharing-like-pastebin "Text Sharing (like pastebin)")
+      - [URL shortener](#URL-shortener "URL shortener")
+      - [File Transfer](#File-Transfer "File Transfer")
+      - [Tools](#Tools "Tools")
+      - [Monitoring](#Monitoring "Monitoring")
+      - [Weather](#Weather "Weather")
+      - [News](#News "News")
+      - [Map](#Map "Map")
+      - [Exchange rates and financial information](#Exchange-rates-and-financial-information "Exchange rates and financial information")
+      - [Manuals, cheat sheets and FAQs](#Manuals-cheat-sheets-and-FAQs "Manuals, cheat sheets and FAQs")
+      - [Dictionaries and translators](#Dictionaries-and-translators "Dictionaries and translators")
+      - [Messages/texts/jokes/fortunes/names generators](#Messagestextsjokesfortunesnames-generators "Messages/texts/jokes/fortunes/names generators")
+      - [Chats, games and fun](#Chats-games-and-fun "Chats, games and fun")
+      - [Internet speed test](#Internet-speed-test "Internet speed test")
+      - [Clients](#Clients "Clients")
 
 ## IP address
 
