@@ -1,4 +1,7 @@
 # awesome-console-services
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
 A curated list of awesome console services (reachable via HTTP, HTTPS and other network protocols)
 
   - [awesome-console-services](#awesome-console-services "awesome-console-services")
@@ -23,7 +26,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## IP address
 
-* `curl https://canihazip.com/s`
+* `curl canihazip.com`
 * `curl ipinfo.io/ip`
 * `curl icanhazip.com`
 * `curl curlmyip.net`
@@ -31,12 +34,14 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `curl ifconfig.pro`
 * `curl ip-addr.es`
 * `dig +short myip.opendns.com @resolver1.opendns.com`
-* `curl ident.me` (see http://api.ident.me/ for the full API reference)
+* `curl ident.me` ([API](http://api.ident.me))
 * `curl ipaddr.site`
 * `curl ifconfig.co`
-* `curl echoip.de` (see https://www.echoip.de/)
+* `curl ifconfig.me`
+* `curl echoip.de`
+* `curl checkip.amazonaws.com`
 
-## IP-based geolocation
+## Geolocation
 
 * `curl ipinfo.io/8.8.8.8` or `curl ipinfo.io/8.8.8.8/loc`
 * `curl ifconfig.co/country` or `curl ifconfig.co/city` or `curl ifconfig.co/country-iso` or `http ifconfig.co/json`
