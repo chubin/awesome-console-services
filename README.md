@@ -1,6 +1,32 @@
 # awesome-console-services
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
 A curated list of awesome console services (reachable via HTTP, HTTPS and other network protocols)
 
+- [awesome-console-services](#awesome-console-services "awesome-console-services")
+  - [IP address](#IP-address "IP address")
+  - [Geolocation](#Geolocation "Geolocation")
+  - [Text Sharing (like
+    pastebin)](#Text-Sharing-like-pastebin "Text Sharing (like pastebin)")
+  - [URL shortener](#URL-shortener "URL shortener")
+  - [File Transfer](#File-Transfer "File Transfer")
+  - [Tools](#Tools "Tools")
+  - [Monitoring](#Monitoring "Monitoring")
+  - [Weather](#Weather "Weather")
+  - [News](#News "News")
+  - [Map](#Map "Map")
+  - [Exchange rates and financial
+    information](#Exchange-rates-and-financial-information "Exchange rates and financial information")
+  - [Manuals, cheat sheets and
+    FAQs](#Manuals-cheat-sheets-and-FAQs "Manuals, cheat sheets and FAQs")
+  - [Dictionaries and
+    translators](#Dictionaries-and-translators "Dictionaries and translators")
+  - [Messages/texts/jokes/fortunes/names
+    generators](#Messagestextsjokesfortunesnames-generators "Messages/texts/jokes/fortunes/names generators")
+  - [Chats, games and fun](#Chats-games-and-fun "Chats, games and fun")
+  - [Internet speed test](#Internet-speed-test "Internet speed test")
+  - [Clients](#Clients "Clients")
 
 ## IP address
 
@@ -17,7 +43,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `curl ifconfig.co`
 * `curl echoip.de` (see https://www.echoip.de/)
 
-## IP-based geolocation
+## Geolocation
 
 * `curl ipinfo.io/8.8.8.8` or `curl ipinfo.io/8.8.8.8/loc`
 * `curl freegeoip.net/csv/8.8.8.8` or `freegeoip.net/xml/4.2.2.2` or `freegeoip.net/json/github.com`
