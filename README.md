@@ -4,7 +4,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## IP address
 
-* `curl canihazip.com`
+* `curl https://canihazip.com/s`
 * `curl ipinfo.io/ip`
 * `curl icanhazip.com`
 * `curl curlmyip.net`
