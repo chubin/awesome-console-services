@@ -47,9 +47,9 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## Text Sharing (like pastebin)
 
-* `curl ix.io`
-* `curl 0x0.st`
-* `cur -L clbin.com`
+* `echo "Hello world!" | curl -F 'f:1=<-' ix.io`
+* `echo "Hello world!" | curl -F file=@- 0x0.st`
+* `echo "Hello world!" | curl -F 'clbin=<-' https://clbin.com`
 * `echo "Hello world!" | nc termbin.com 9999`
 
 ## URL shortener
