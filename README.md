@@ -34,6 +34,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `curl -L canihazip.com/s`
 
 ### new line
+* `curl eth0.me`
 * `curl ipaddr.site`
 * `curl ifconfig.co`
 * `curl ifconfig.pro`
