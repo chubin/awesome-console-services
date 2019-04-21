@@ -26,6 +26,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 ## IP address
 
 ### inline
+* `curl l2.io/ip`
 * `curl echoip.de`
 * `curl ifconfig.me`
 * `curl ipecho.net/plain`
