@@ -24,10 +24,14 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## IP address
 
+### inline
 * `curl echoip.de`
 * `curl ifconfig.me`
 * `curl ipecho.net/plain`
+* `curl -L ident.me` #[API](http://api.ident.me)
+* `curl -L canihazip.com/s`
 
+### new line
 * `curl ipaddr.site`
 * `curl ifconfig.co`
 * `curl ifconfig.pro`
@@ -35,10 +39,6 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `curl ipinfo.io/ip`
 * `curl icanhazip.com`
 * `curl checkip.amazonaws.com`
-
-* `curl -L ident.me` #[API](http://api.ident.me)
-* `curl -L canihazip.com`
-
 
 ## Geolocation
 
