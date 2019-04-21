@@ -9,6 +9,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
   - [Text Sharing (like pastebin)](#Text-Sharing-like-pastebin "Text Sharing (like pastebin)")
   - [URL shortener](#URL-shortener "URL shortener")
   - [File Transfer](#File-Transfer "File Transfer")
+  - [Browser](#Browser "Browser")
   - [Tools](#Tools "Tools")
   - [Monitoring](#Monitoring "Monitoring")
   - [Weather](#Weather "Weather")
@@ -60,6 +61,10 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 ## File Transfer
 
 * `curl --upload-file <file> transfer.sh/<filename>`
+
+## Browser
+
+* `ssh brow.sh`
 
 ## Tools
 
