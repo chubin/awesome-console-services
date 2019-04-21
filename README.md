@@ -30,7 +30,6 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `curl curlmyip.net`
 * `curl ipecho.net/plain`
 * `curl ifconfig.pro`
-* `curl ip-addr.es`
 * `dig +short myip.opendns.com @resolver1.opendns.com`
 * `curl ident.me` ([API](http://api.ident.me))
 * `curl ipaddr.site`
@@ -69,9 +68,9 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 * `curl ping.gg`
 
-## Weather 
+## Weather
 
-* `curl wttr.in` or `curl wttr.in/Berlin` - the right way to check the weather 
+* `curl wttr.in` or `curl wttr.in/Berlin` - the right way to check the weather
 * `finger oslo@graph.no`
 
 ## News
@@ -84,7 +83,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## Exchange rates and financial information
 
-* `curl rate.sx` - get cryptocurrencies exchange rates 
+* `curl rate.sx` - get cryptocurrencies exchange rates
 * `curl moneroj.org` - get Monero exchange rate
 
 ## Manuals, cheat sheets and FAQs
