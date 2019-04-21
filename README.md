@@ -43,6 +43,10 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `curl icanhazip.com`
 * `curl checkip.amazonaws.com`
 
+### JSON only
+* `curl httpbin.org/ip`
+* `curl wtfismyip.com/json`
+
 ## Geolocation
 
 * `curl ipinfo.io/8.8.8.8` or `curl ipinfo.io/8.8.8.8/loc`
