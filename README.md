@@ -77,6 +77,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 ## News
 
 * `curl getnews.tech/world+cup` - fetch the latest news
+* `gopher txtn.ws`
 
 ## Map
 
