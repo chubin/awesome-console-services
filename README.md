@@ -32,6 +32,12 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 * `curl ipecho.net/plain`
 * `curl -L ident.me` #[API](http://api.ident.me)
 * `curl -L canihazip.com/s`
+* `curl -L tnx.nl/ip`
+* `curl wgetip.com`
+* `curl whatismyip.akamai.com`
+* `curl ip.tyk.nu`
+* `curl bot.whatismyipaddress.com`
+* `curl curlmyip.net`
 
 ### new line
 * `curl eth0.me`
