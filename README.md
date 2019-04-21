@@ -24,19 +24,21 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## IP address
 
-* `curl https://canihazip.com/s`
-* `curl ipinfo.io/ip`
-* `curl icanhazip.com`
-* `curl curlmyip.net`
+* `curl echoip.de`
+* `curl ifconfig.me`
 * `curl ipecho.net/plain`
-* `curl ifconfig.pro`
-* `dig +short myip.opendns.com @resolver1.opendns.com`
-* `curl ident.me` ([API](http://api.ident.me))
+
 * `curl ipaddr.site`
 * `curl ifconfig.co`
-* `curl ifconfig.me`
-* `curl echoip.de`
+* `curl ifconfig.pro`
+* `curl curlmyip.net`
+* `curl ipinfo.io/ip`
+* `curl icanhazip.com`
 * `curl checkip.amazonaws.com`
+
+* `curl -L ident.me` #[API](http://api.ident.me)
+* `curl -L canihazip.com`
+
 
 ## Geolocation
 
