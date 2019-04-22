@@ -5,10 +5,10 @@
 A curated list of awesome console services (reachable via HTTP, HTTPS and other network protocols).
 Strutured data of the list (kept in sync) is in [strcutured.yaml](structured.yaml).
 
-  - [IP address](#IP-address "IP address")
+  - [IP Address](#IP-Address "IP Address")
   - [Geolocation](##Geolocation "IP-based Geolocation")
   - [Text Sharing](#Text-Sharing-like-pastebin "Text Sharing (like pastebin)")
-  - [URL shortener](#URL-shortener "URL shortener")
+  - [URL Shortener](#URL-Shortener "URL Shortener")
   - [File Transfer](#File-Transfer "File Transfer")
   - [Browser](#Browser "Browser")
   - [Tools](#Tools "Tools")
@@ -17,10 +17,10 @@ Strutured data of the list (kept in sync) is in [strcutured.yaml](structured.yam
   - [News](#News "News")
   - [Map](#Map "Map")
   - [Money](#Money "Exchange rates and financial information")
-  - [Manuals, cheat sheets and FAQs](#Manuals-cheat-sheets-and-FAQs "Manuals, cheat sheets and FAQs")
+  - [References](#References "Manuals, cheat sheets and FAQs")
   - [Dictionaries and translators](#Dictionaries-and-translators "Dictionaries and translators")
   - [Humor](#Humor "Messages/texts/jokes/fortunes/names generators")
-  - [Chats, games and fun](#Chats-games-and-fun "Chats, games and fun")
+  - [Entertainment](#Entertainment "Chats, games and fun")
   - [Internet speed test](#Internet-speed-test "Internet speed test")
   - [Clients](#Clients "Clients")
 
@@ -59,12 +59,14 @@ Strutured data of the list (kept in sync) is in [strcutured.yaml](structured.yam
 * `curl ipinfo.io/8.8.8.8` or `curl ipinfo.io/8.8.8.8/loc`
 * `curl ifconfig.co/country` or `curl ifconfig.co/city` or `curl ifconfig.co/country-iso` or `http ifconfig.co/json`
 
-## Text Sharing (like pastebin)
+## Text Sharing
 
 * `echo "Hello world!" | curl -F 'f:1=<-' ix.io`
 * `echo "Hello world!" | curl -F file=@- 0x0.st`
 * `echo "Hello world!" | curl -F 'clbin=<-' https://clbin.com`
 * `echo "Hello world!" | nc termbin.com 9999`
+https://p.defau.lt/
+curl -T- https://pub.iotek.org/paste.php <file
 
 ## URL shortener
 
@@ -101,12 +103,12 @@ Strutured data of the list (kept in sync) is in [strcutured.yaml](structured.yam
 
 * `telnet mapscii.me` - show a zoomable world map
 
-## Exchange rates and financial information
+## Money
 
 * `curl rate.sx` - get cryptocurrencies exchange rates
 * `curl moneroj.org` - get Monero exchange rate
 
-## Manuals, cheat sheets and FAQs
+## References
 
 * `curl cheat.sh` - UNIX/Linux commands cheat sheets using curl ([chubin/cheat.sh](https://github.com/chubin/cheat.sh))
 
@@ -114,7 +116,7 @@ Strutured data of the list (kept in sync) is in [strcutured.yaml](structured.yam
 
 * `curl 'dict://dict.org/d:command line'`
 
-## Messages/texts/jokes/fortunes/names generators
+## Humor
 
 * `git commit -m $(curl -sk https://whatthecommit.com/index.txt)` — generate random commit message
 * `curl -H 'Accept: text/plain' foaas.com/cool/:from` — fuck off as a service
@@ -122,7 +124,7 @@ Strutured data of the list (kept in sync) is in [strcutured.yaml](structured.yam
 * `curl -s https://uinames.com/api/?region=france\&amount=25 | jq '.[] | .name +" " + .surname'` — generate 25 random french names
 * `curl https://icanhazdadjoke.com` — random jokes
 
-## Chats, games and fun
+## Entertainment
 
 * `nc towel.blinkenlights.nl 23` — watch StarWars in terminal
 * `ssh chat.shazow.net` — chat over SSH ([shazow/ssh-chat](https://github.com/shazow/ssh-chat))
