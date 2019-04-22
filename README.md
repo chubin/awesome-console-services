@@ -4,42 +4,54 @@
 
 A curated list of awesome console services (reachable via HTTP, HTTPS and other network protocols)
 
-  - [awesome-console-services](#awesome-console-services "awesome-console-services")
-      - [IP address](#IP-address "IP address")
-      - [IP-based geolocation](#IP-based-geolocation "IP-based geolocation")
-      - [Text Sharing (like
-        pastebin)](#Text-Sharing-like-pastebin "Text Sharing (like pastebin)")
-      - [URL shortener](#URL-shortener "URL shortener")
-      - [File Transfer](#File-Transfer "File Transfer")
-      - [Tools](#Tools "Tools")
-      - [Monitoring](#Monitoring "Monitoring")
-      - [Weather](#Weather "Weather")
-      - [News](#News "News")
-      - [Map](#Map "Map")
-      - [Exchange rates and financial information](#Exchange-rates-and-financial-information "Exchange rates and financial information")
-      - [Manuals, cheat sheets and FAQs](#Manuals-cheat-sheets-and-FAQs "Manuals, cheat sheets and FAQs")
-      - [Dictionaries and translators](#Dictionaries-and-translators "Dictionaries and translators")
-      - [Messages/texts/jokes/fortunes/names generators](#Messagestextsjokesfortunesnames-generators "Messages/texts/jokes/fortunes/names generators")
-      - [Chats, games and fun](#Chats-games-and-fun "Chats, games and fun")
-      - [Internet speed test](#Internet-speed-test "Internet speed test")
-      - [Clients](#Clients "Clients")
+  - [IP address](#IP-address "IP address")
+  - [Geolocation](##Geolocation "IP-based Geolocation")
+  - [Text Sharing (like pastebin)](#Text-Sharing-like-pastebin "Text Sharing (like pastebin)")
+  - [URL shortener](#URL-shortener "URL shortener")
+  - [File Transfer](#File-Transfer "File Transfer")
+  - [Browser](#Browser "Browser")
+  - [Tools](#Tools "Tools")
+  - [Monitoring](#Monitoring "Monitoring")
+  - [Weather](#Weather "Weather")
+  - [News](#News "News")
+  - [Map](#Map "Map")
+  - [Exchange rates and financial information](#Exchange-rates-and-financial-information "Exchange rates and financial information")
+  - [Manuals, cheat sheets and FAQs](#Manuals-cheat-sheets-and-FAQs "Manuals, cheat sheets and FAQs")
+  - [Dictionaries and translators](#Dictionaries-and-translators "Dictionaries and translators")
+  - [Messages/texts/jokes/fortunes/names generators](#Messagestextsjokesfortunesnames-generators "Messages/texts/jokes/fortunes/names generators")
+  - [Chats, games and fun](#Chats-games-and-fun "Chats, games and fun")
+  - [Internet speed test](#Internet-speed-test "Internet speed test")
+  - [Clients](#Clients "Clients")
 
 ## IP address
 
-* `curl https://canihazip.com/s`
-* `curl ipinfo.io/ip`
-* `curl icanhazip.com`
-* `curl curlmyip.net`
+### inline
+* `curl l2.io/ip`
+* `curl echoip.de`
+* `curl ifconfig.me`
 * `curl ipecho.net/plain`
-* `curl ifconfig.pro`
-* `curl ip-addr.es`
-* `dig +short myip.opendns.com @resolver1.opendns.com`
-* `curl ident.me` ([API](http://api.ident.me))
+* `curl -L ident.me` #[API](http://api.ident.me)
+* `curl -L canihazip.com/s`
+* `curl -L tnx.nl/ip`
+* `curl wgetip.com`
+* `curl whatismyip.akamai.com`
+* `curl ip.tyk.nu`
+* `curl bot.whatismyipaddress.com`
+* `curl curlmyip.net`
+
+### new line
+* `curl eth0.me`
 * `curl ipaddr.site`
 * `curl ifconfig.co`
-* `curl ifconfig.me`
-* `curl echoip.de`
+* `curl ifconfig.pro`
+* `curl curlmyip.net`
+* `curl ipinfo.io/ip`
+* `curl icanhazip.com`
 * `curl checkip.amazonaws.com`
+
+### JSON only
+* `curl httpbin.org/ip`
+* `curl wtfismyip.com/json`
 
 ## Geolocation
 
@@ -48,10 +60,9 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## Text Sharing (like pastebin)
 
-* `ix.io`
-* `sprunge.us`
-* `0x0.st`
-* `clbin.com`
+* `echo "Hello world!" | curl -F 'f:1=<-' ix.io`
+* `echo "Hello world!" | curl -F file=@- 0x0.st`
+* `echo "Hello world!" | curl -F 'clbin=<-' https://clbin.com`
 * `echo "Hello world!" | nc termbin.com 9999`
 
 ## URL shortener
@@ -63,6 +74,10 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 * `curl --upload-file <file> transfer.sh/<filename>`
 
+## Browser
+
+* `ssh brow.sh`
+
 ## Tools
 
 * `curl qrenco.de/STRING` or `echo STRING | curl -F-=\<- qrenco.de` — create QR-code for a string ([chubin/qrenco.de](https://github.com/chubin/qrenco.de))
@@ -71,14 +86,15 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 * `curl ping.gg`
 
-## Weather 
+## Weather
 
-* `curl wttr.in` or `curl wttr.in/Berlin` - the right way to check the weather 
+* `curl wttr.in` or `curl wttr.in/Berlin` - the right way to check the weather
 * `finger oslo@graph.no`
 
 ## News
 
 * `curl getnews.tech/world+cup` - fetch the latest news
+* `gopher txtn.ws`
 
 ## Map
 
@@ -86,7 +102,7 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 
 ## Exchange rates and financial information
 
-* `curl rate.sx` - get cryptocurrencies exchange rates 
+* `curl rate.sx` - get cryptocurrencies exchange rates
 * `curl moneroj.org` - get Monero exchange rate
 
 ## Manuals, cheat sheets and FAQs
