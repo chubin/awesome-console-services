@@ -53,6 +53,7 @@ by_category:
         tags: [curl]
       0x0.st:
         tags: [curl]
+        repository: https://github.com/lachs0r/0x0
       clbin.com:
         tags: [curl]
       termbin.com:
