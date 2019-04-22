@@ -1,0 +1,143 @@
+---
+by_category:
+  - ip:
+      l2.io:
+        tags: [curl, plain]
+      echoip.de:
+        tags: [curl, plain]
+      ifconfig.me:
+        tags: [curl, plain]
+      ipecho.net:
+        tags: [curl, plain]
+      ident.me:
+        tags: [curl, plain]
+      canihazip.com:
+        tags: [curl, plain]
+      tnx.nl:
+        tags: [curl, plain]
+      wgetip.com:
+        tags: [curl, plain]
+      whatismyip.akamai.com:
+        tags: [curl, plain]
+      ip.tyk.nu:
+        tags: [curl, plain]
+      bot.whatismyipaddress.com:
+        tags: [curl, plain]
+      eth0.me:
+        tags: [curl, plain, newline]
+      ipaddr.site:
+        tags: [curl, plain, newline]
+      ifconfig.co:
+        tags: [curl, plain, newline]
+      ifconfig.pro:
+        tags: [curl, plain, newline]
+      curlmyip.net:
+        tags: [curl, plain, newline, ipv6]
+      ipinfo.io:
+        tags: [curl, plain, newline]
+      icanhazip.com:
+        tags: [curl, plain, newline]
+      checkip.amazonaws.com:
+        tags: [curl, plain, newline]
+      httpbin.org:
+        tags: [curl, json]
+      wtfismyip.com:
+        tags: [curl, json]
+  - geo:
+      ipinfo.io:
+        tags: [curl]
+      ifconfig.co:
+        tags: [curl]
+  - sharing:
+      ix.io:
+        tags: [curl]
+      0x0.st:
+        tags: [curl]
+      clbin.com:
+        tags: [curl]
+      termbin.com:
+        tags: [nc]
+  - url:
+      tinyurl.com:
+        tags: [curl]
+      iret.ml:
+        tags: [curl, post]
+  - file:
+      transfer.sh:
+        tags: [curl]
+  - browser:
+      brow.sh:
+        tags: [ssh]
+  - tools:
+      qrenco.de:
+        tags: [curl]
+        repository: https://github.com/chubin/qrenco.de
+  - monitoring:
+      ping.gg:
+        tags: [curl]
+  - weather:
+      wttr.in:
+        tags: [curl]
+      graph.no:
+        tags: [finger]
+  - news:
+      getnews.tech:
+        tags: [curl]
+      txtn.ws:
+        tags: [gopher]
+  - map:
+      mapscii.me:
+        tags: [telnet]
+  - financial:
+      rate.sx:
+        tags: [curl]
+      moneroj.org:
+        tags: [curl]
+  - documentation:
+      cheat.sh:
+        tags: [curl]
+        repository: https://github.com/chubin/cheat.sh
+  - dictionary:
+      dict.org:
+        tags: [dict]
+  - generator:
+      whatthecommit.com:
+        tags: [curl]
+      foaas.com:
+        tags: [curl]
+      pseudorandom.name:
+        tags: [curl]
+        repository: https://github.com/treyhunner/pseudorandom.name
+      uinames.com:
+        tags: [curl]
+      icanhazdadjoke.com:
+        tags: [curl]
+  - fun:
+      towel.blinkenlights.nl:
+        tags: [telnet]
+      chat.shazow.net:
+        tags: [ssh]
+        repository: https://github.com/shazow/ssh-chat
+      parrot.live:
+        tags: [curl]
+        repository: https://github.com/hugomd/parrot.live
+      byemck.atulr.com:
+        tags: [curl]
+        repository: https://github.com/master-atul/byemck
+  - networking:
+      speedtest.py:
+        tags: [script]
+        repository: https://github.com/sivel/speedtest-cli
+  - client:
+      curl:
+        tags: [curl, program]
+        repository: https://github.com/curl/curl
+      httpie:
+        tags: [curl, program]
+        repository: https://github.com/jakubroztocil/httpie
+      wget:
+        tags: [curl, program]
+        repository: https://www.gnu.org/software/wget
+      wget2:
+        tags: [curl, program]
+        repository: https://gitlab.com/gnuwget/wget2
