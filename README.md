@@ -65,8 +65,6 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `echo "Hello world!" | curl -F file=@- 0x0.st`
 * `echo "Hello world!" | curl -F 'clbin=<-' https://clbin.com`
 * `echo "Hello world!" | nc termbin.com 9999`
-https://p.defau.lt/
-curl -T- https://pub.iotek.org/paste.php <file
 
 ## URL shortener
 
