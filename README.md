@@ -17,11 +17,11 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
   - [News](#News "News")
   - [Map](#Map "Map")
   - [Money](#Money "Exchange rates and financial information")
-  - [References](#References "Manuals, cheat sheets and FAQs")
+  - [Documentation](#Documentation "Manuals, cheat sheets and FAQs")
   - [Dictionaries and translators](#Dictionaries-and-translators "Dictionaries and translators")
-  - [Humor](#Humor "Messages/texts/jokes/fortunes/names generators")
+  - [Generators](#Humour "Messages/texts/jokes/fortunes/names generators")
   - [Entertainment](#Entertainment "Chats, games and fun")
-  - [Internet speed test](#Internet-speed-test "Internet speed test")
+  - [Scripts](#Scripts "Scripts")
   - [Clients](#Clients "Clients")
 
 ## IP address
@@ -108,7 +108,7 @@ curl -T- https://pub.iotek.org/paste.php <file
 * `curl rate.sx` - get cryptocurrencies exchange rates
 * `curl moneroj.org` - get Monero exchange rate
 
-## References
+## Documentation
 
 * `curl cheat.sh` - UNIX/Linux commands cheat sheets using curl ([chubin/cheat.sh](https://github.com/chubin/cheat.sh))
 
@@ -116,7 +116,7 @@ curl -T- https://pub.iotek.org/paste.php <file
 
 * `curl 'dict://dict.org/d:command line'`
 
-## Humor
+## Generators
 
 * `git commit -m $(curl -sk https://whatthecommit.com/index.txt)` — generate random commit message
 * `curl -H 'Accept: text/plain' foaas.com/cool/:from` — fuck off as a service
@@ -131,7 +131,9 @@ curl -T- https://pub.iotek.org/paste.php <file
 * `curl parrot.live` — display an animated party parrot ([hugomd/parrot.live](https://github.com/hugomd/parrot.live))
 * `curl byemck.atulr.com` — display animated goodbye message for colleagues ([master-atul/byemck](https://github.com/master-atul/byemck))
 
-## Internet speed test
+## Scripts
+
+Useful scripts, that can be run with just one line of code, but where, still local still execution is necessary.
 
 * `curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -`
 
