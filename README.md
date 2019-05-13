@@ -105,6 +105,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 * `curl rate.sx` - get cryptocurrencies exchange rates
 * `curl moneroj.org` - get Monero exchange rate
+* `curl cmc.rjldev.com` - get coinmarketcap top 100 cryptocurrencies
 
 ## Documentation
 
