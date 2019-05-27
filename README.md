@@ -15,6 +15,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
   - [Monitoring](#Monitoring "Monitoring")
   - [Weather](#Weather "Weather")
   - [News](#News "News")
+  - [Information boards](#Information "Information boards")
   - [Map](#Map "Map")
   - [Money](#Money "Exchange rates and financial information")
   - [Documentation](#Documentation "Manuals, cheat sheets and FAQs")
@@ -96,6 +97,10 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 * `curl getnews.tech/world+cup` - fetch the latest news
 * `gopher txtn.ws`
+
+## Information boards
+
+* `curl http://frcl.de/gulasch` - Gulaschprogrammiernacht 2019 Fahrplan
 
 ## Map
 
