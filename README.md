@@ -6,8 +6,8 @@ A curated list of awesome console services (reachable via HTTP, HTTPS and other 
 Structured data of the list (kept in sync) is in [structured.yaml](structured.yaml).
 
   - [IP Address](#IP-Address "IP Address")
-  - [Geolocation](##Geolocation "IP-based Geolocation")
-  - [Text Sharing](#Text-Sharing-like-pastebin "Text Sharing (like pastebin)")
+  - [Geolocation](#Geolocation "Geolocation")
+  - [Text Sharing](#Text-Sharing "Text Sharing")
   - [URL Shortener](#URL-Shortener "URL Shortener")
   - [File Transfer](#File-Transfer "File Transfer")
   - [Browser](#Browser "Browser")
@@ -15,7 +15,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
   - [Monitoring](#Monitoring "Monitoring")
   - [Weather](#Weather "Weather")
   - [News](#News "News")
-  - [Information boards](#Information "Information boards")
+  - [Information boards](#Information-boards "Information boards")
   - [Map](#Map "Map")
   - [Money](#Money "Exchange rates and financial information")
   - [Documentation](#Documentation "Manuals, cheat sheets and FAQs")
