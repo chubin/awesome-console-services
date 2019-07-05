@@ -70,7 +70,6 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## URL shortener
 
 * `curl -s http://tinyurl.com/api-create.php?url=http://www.google.com`
-* `curl -X POST --data "http://google.com" http://iret.ml/shorten`
 
 ## File Transfer
 
