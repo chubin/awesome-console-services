@@ -61,8 +61,6 @@ by_category:
   - url:
       tinyurl.com:
         tags: [curl]
-      iret.ml:
-        tags: [curl, post]
   - file:
       transfer.sh:
         tags: [curl]
