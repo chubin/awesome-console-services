@@ -96,6 +96,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 * `curl getnews.tech/world+cup` - fetch the latest news
 * `gopher txtn.ws`
+* `ssh redditbox.us` — Reddit in terminal (ssh + text browser)
 
 ## Information boards
 
