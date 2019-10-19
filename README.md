@@ -74,6 +74,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## File Transfer
 
 * `curl --upload-file <file> transfer.sh/<filename>`
+* `curl --upload-file <file> filepush.co/upload/<filename>`
 
 ## Browser
 
