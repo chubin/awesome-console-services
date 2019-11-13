@@ -123,6 +123,9 @@ by_category:
       byemck.atulr.com:
         tags: [curl]
         repository: https://github.com/master-atul/byemck
+      node-web-console.glitch.me:
+        tags: [curl,emoji,race]
+        repository: https://github.com/fourtonfish/node-web-console
   - networking:
       speedtest.py:
         tags: [script]
