@@ -136,6 +136,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl parrot.live` — display an animated party parrot ([hugomd/parrot.live](https://github.com/hugomd/parrot.live))
 * `curl byemck.atulr.com` — display animated goodbye message for colleagues ([master-atul/byemck](https://github.com/master-atul/byemck))
 * `ssh sshtron.zachlatta.com` ~> snake game; play with AWSD keys
+* `curl node-web-console.glitch.me` — watch an emoji race ([source](https://glitch.com/edit/#!/node-web-console))
 
 ## Scripts
 
