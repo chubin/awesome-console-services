@@ -119,6 +119,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl rate.sx` - get cryptocurrencies exchange rates
 * `curl moneroj.org` - get Monero exchange rate
 * `curl cmc.rjldev.com` - get coinmarketcap top 100 cryptocurrencies
+* `telnet ticker.bitcointicker.co 10080` — get BTC/USD exchange rate
 
 ## Documentation
 
@@ -136,14 +137,28 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl -s https://uinames.com/api/?region=france\&amount=25 | jq '.[] | .name +" " + .surname'` — generate 25 random french names
 * `curl https://icanhazdadjoke.com` — random jokes
 
-## Entertainment
+## Entertainment and Games
 
 * `nc towel.blinkenlights.nl 23` — watch StarWars in terminal
 * `ssh chat.shazow.net` — chat over SSH ([shazow/ssh-chat](https://github.com/shazow/ssh-chat))
 * `curl parrot.live` — display an animated party parrot ([hugomd/parrot.live](https://github.com/hugomd/parrot.live))
 * `curl byemck.atulr.com` — display animated goodbye message for colleagues ([master-atul/byemck](https://github.com/master-atul/byemck))
-* `ssh sshtron.zachlatta.com` ~> snake game; play with AWSD keys
+* `nc rya.nc 1987` — disco in the console
 * `curl node-web-console.glitch.me` — watch an emoji race ([source](https://glitch.com/edit/#!/node-web-console))
+
+Telnet/SSH-based:
+
+* `ssh sshtron.zachlatta.com` ~> snake game; play with AWSD keys
+* `ssh netris.rocketnine.space` —  multiplayer tetris
+* `ssh nethack@alt.org` —  a fun roguelike game
+* `ssh play@anonymine-demo.oskog97.com -p 2222` — guess free minesweeper; Pass: play
+* `ssh twenex@sdf.org` —  play various games including checkers
+* `telnet freechess.org` — Chess Game
+* `telnet milek7.gq` — games: Pong, Break out, Tetris
+* `telnet aardmud.org` — MUD
+* `telnet mud.darkerrealms.org 2000` — MUD
+
+* `telnet telehack.com`
 
 ## Scripts
 
