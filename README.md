@@ -57,6 +57,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `dig @ns1.google.com o-o.myaddr.l.google.com TXT -6 +short` (IPv6)
 * `dig @ns1.google.com o-o.myaddr.l.google.com TXT -4 +short` (IPv4)
 * `dig resolver.dnscrypt.info TXT +short`
+* `curl https://dnsjson.com/resolver.dnscrypt.info/TXT.json`
 
 ### JSON only
 * `curl httpbin.org/ip`
