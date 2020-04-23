@@ -1,0 +1,12 @@
+name: Workflow for testing all services
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v1
+    - name: Testing all services
+      uses: ./.github/action-test/
