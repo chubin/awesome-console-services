@@ -1,0 +1,7 @@
+name: Action Test
+description: Testing all services
+author: David Adi Nugroho <davidadi216@gmail.com>
+
+runs:
+  using: docker
+  image: Dockerfile
