@@ -171,7 +171,7 @@ Useful scripts, that can be run with just one line of code, but where, still loc
 
 At least on of the clients, that you need to access these services, is installed in almost every UNIX/Linux system.
 
-* [curl](https://github.com/curl/curl)
-* [httpie](https://github.com/jakubroztocil/httpie) — modern command line HTTP client
+* [curl](https://curl.haxx.se/)
+* [httpie](https://httpie.org/)
 * [wget](https://www.gnu.org/software/wget/)
 * [wget2](https://gitlab.com/gnuwget/wget2)
