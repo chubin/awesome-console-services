@@ -90,11 +90,13 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## URL shortener
 
 * `curl -s http://tinyurl.com/api-create.php?url=http://www.google.com`
+* `curl -F shorten=http://www.google.com https://ttm.sh`
 
 ## File Transfer
 
 * `curl --upload-file <file> transfer.sh/<filename>`
 * `curl --upload-file <file> filepush.co/upload/<filename>`
+* `curl -F file=@<file> https://ttm.sh`
 
 ## Browser
 
