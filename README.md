@@ -27,7 +27,8 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## IP address
 
-### inline
+### Inline
+
 * `curl l2.io/ip`
 * `curl echoip.de`
 * `curl ifconfig.me`
@@ -44,7 +45,8 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl ipv4bot.whatismyipaddress.com`
 * `curl ipcalf.com`
 
-### new line
+### New line
+
 * `curl eth0.me`
 * `curl ipaddr.site`
 * `curl ifconfig.co`
@@ -58,6 +60,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl ifconfig.io/ip`
 
 ### DNS
+
 * `dig @1.1.1.1 whoami.cloudflare ch txt +short` (IPv4)
 * `dig @2606:4700:4700::1111 whoami.cloudflare ch txt -6 +short` (IPv6)
 * `dig @ns1.google.com o-o.myaddr.l.google.com TXT -6 +short` (IPv6)
@@ -66,6 +69,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl https://dnsjson.com/resolver.dnscrypt.info/TXT.json`
 
 ### JSON only
+
 * `curl httpbin.org/ip`
 * `curl wtfismyip.com/json`
 * `curl -L iphorse.com/json`
@@ -112,33 +116,33 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## Weather
 
-* `curl wttr.in` or `curl wttr.in/Berlin` - the right way to check the weather
+* `curl wttr.in` or `curl wttr.in/Berlin` — the right way to check the weather
 * `finger oslo@graph.no`
 
 ## News
 
-* `curl getnews.tech/world+cup` - fetch the latest news
+* `curl getnews.tech/world+cup` — fetch the latest news
 * `gopher txtn.ws`
 * `ssh redditbox.us` — Reddit in terminal (ssh + text browser)
 
 ## Information boards
 
-* `curl http://frcl.de/gulasch` - Gulaschprogrammiernacht 2019 Fahrplan
+* `curl http://frcl.de/gulasch` — Gulaschprogrammiernacht 2019 Fahrplan
 
 ## Map
 
-* `telnet mapscii.me` - show a zoomable world map
+* `telnet mapscii.me` — show a zoomable world map
 
 ## Money
 
-* `curl rate.sx` - get cryptocurrencies exchange rates
-* `curl moneroj.org` - get Monero exchange rate
-* `curl cmc.rjldev.com` - get coinmarketcap top 100 cryptocurrencies
+* `curl rate.sx` — get cryptocurrencies exchange rates
+* `curl moneroj.org` — get Monero exchange rate
+* `curl cmc.rjldev.com` — get coinmarketcap top 100 cryptocurrencies
 * `telnet ticker.bitcointicker.co 10080` — get BTC/USD exchange rate
 
 ## Documentation
 
-* `curl cheat.sh` - UNIX/Linux commands cheat sheets using curl ([chubin/cheat.sh](https://github.com/chubin/cheat.sh))
+* `curl cheat.sh` — UNIX/Linux commands cheat sheets using curl ([chubin/cheat.sh](https://github.com/chubin/cheat.sh))
 
 ## Dictionaries and translators
 
@@ -172,7 +176,6 @@ Telnet/SSH-based:
 * `telnet milek7.gq` — games: Pong, Break out, Tetris
 * `telnet aardmud.org` — MUD
 * `telnet mud.darkerrealms.org 2000` — MUD
-
 * `telnet telehack.com`
 
 ## Scripts
