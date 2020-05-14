@@ -146,7 +146,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## Dictionaries and translators
 
-* `curl 'dict://dict.org/d:command line'`
+* `curl 'dict.org/d:command line'`
 
 ## Generators
 
