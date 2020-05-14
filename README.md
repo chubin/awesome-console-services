@@ -171,7 +171,12 @@ Useful scripts, that can be run with just one line of code, but where, still loc
 
 At least on of the clients, that you need to access these services, is installed in almost every UNIX/Linux system.
 
+* [aria2](https://aria2.github.io/)
+* [bitsadmin](https://docs.microsoft.com/windows/win32/bits/)
 * [curl](https://curl.haxx.se/)
 * [httpie](https://httpie.org/)
+* [httrack](https://www.httrack.com/)
+* [powershell](https://microsoft.com/powershell/)
+* [rclone](https://rclone.org/)
 * [wget](https://www.gnu.org/software/wget/)
 * [wget2](https://gitlab.com/gnuwget/wget2)
