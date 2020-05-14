@@ -40,6 +40,9 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl ip.tyk.nu`
 * `curl bot.whatismyipaddress.com`
 * `curl curlmyip.net`
+* `curl api.ipify.org`
+* `curl ipv4bot.whatismyipaddress.com`
+* `curl ipcalf.com`
 
 ### new line
 * `curl eth0.me`
@@ -50,6 +53,9 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl ipinfo.io/ip`
 * `curl icanhazip.com`
 * `curl checkip.amazonaws.com`
+* `curl smart-ip.net/myip`
+* `curl ip-api.com/line?fields=query`
+* `curl ifconfig.io/ip`
 
 ### DNS
 * `dig @1.1.1.1 whoami.cloudflare ch txt +short` (IPv4)
@@ -62,6 +68,12 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ### JSON only
 * `curl httpbin.org/ip`
 * `curl wtfismyip.com/json`
+* `curl -L iphorse.com/json`
+* `curl geoplugin.net/json.gp`
+* `curl https://ipapi.co/json`
+* `curl -L jsonip.com`
+* `curl gd.geobytes.com/GetCityDetails`
+* `curl ip.jsontest.com`
 
 ## Geolocation
 
