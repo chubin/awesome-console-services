@@ -27,7 +27,8 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## IP address
 
-### inline
+### Inline
+
 * `curl l2.io/ip`
 * `curl echoip.de`
 * `curl ifconfig.me`
@@ -40,8 +41,12 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl ip.tyk.nu`
 * `curl bot.whatismyipaddress.com`
 * `curl curlmyip.net`
+* `curl api.ipify.org`
+* `curl ipv4bot.whatismyipaddress.com`
+* `curl ipcalf.com`
 
-### new line
+### New line
+
 * `curl eth0.me`
 * `curl ipaddr.site`
 * `curl ifconfig.co`
@@ -50,8 +55,12 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl ipinfo.io/ip`
 * `curl icanhazip.com`
 * `curl checkip.amazonaws.com`
+* `curl smart-ip.net/myip`
+* `curl ip-api.com/line?fields=query`
+* `curl ifconfig.io/ip`
 
 ### DNS
+
 * `dig @1.1.1.1 whoami.cloudflare ch txt +short` (IPv4)
 * `dig @2606:4700:4700::1111 whoami.cloudflare ch txt -6 +short` (IPv6)
 * `dig @ns1.google.com o-o.myaddr.l.google.com TXT -6 +short` (IPv6)
@@ -60,8 +69,15 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl https://dnsjson.com/resolver.dnscrypt.info/TXT.json`
 
 ### JSON only
+
 * `curl httpbin.org/ip`
 * `curl wtfismyip.com/json`
+* `curl -L iphorse.com/json`
+* `curl geoplugin.net/json.gp`
+* `curl https://ipapi.co/json`
+* `curl -L jsonip.com`
+* `curl gd.geobytes.com/GetCityDetails`
+* `curl ip.jsontest.com`
 
 ## Geolocation
 
@@ -74,15 +90,18 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `echo "Hello world!" | curl -F file=@- 0x0.st`
 * `echo "Hello world!" | curl -F 'clbin=<-' https://clbin.com`
 * `echo "Hello world!" | nc termbin.com 9999`
+* `echo "Hello world!" | curl -F 'sprunge=<-' sprunge.us`
 
 ## URL shortener
 
-* `curl -s http://tinyurl.com/api-create.php?url=http://www.google.com`
+* `curl -s tinyurl.com/api-create.php?url=<link>`
+* `curl -F shorten=<link> https://ttm.sh`
 
 ## File Transfer
 
 * `curl --upload-file <file> transfer.sh/<filename>`
 * `curl --upload-file <file> filepush.co/upload/<filename>`
+* `curl -F file=@<file> https://ttm.sh`
 
 ## Browser
 
@@ -98,41 +117,41 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## Weather
 
-* `curl wttr.in` or `curl wttr.in/Berlin` - the right way to check the weather
+* `curl wttr.in` or `curl wttr.in/Berlin` — the right way to check the weather
 * `finger oslo@graph.no`
 
 ## News
 
-* `curl getnews.tech/world+cup` - fetch the latest news
+* `curl getnews.tech/world+cup` — fetch the latest news
 * `gopher txtn.ws`
 * `ssh redditbox.us` — Reddit in terminal (ssh + text browser)
 
 ## Information boards
 
-* `curl http://frcl.de/gulasch` - Gulaschprogrammiernacht 2019 Fahrplan
+* `curl http://frcl.de/gulasch` — Gulaschprogrammiernacht 2019 Fahrplan
 
 ## Map
 
-* `telnet mapscii.me` - show a zoomable world map
+* `telnet mapscii.me` — show a zoomable world map
 
 ## Money
 
-* `curl rate.sx` - get cryptocurrencies exchange rates
-* `curl moneroj.org` - get Monero exchange rate
-* `curl cmc.rjldev.com` - get coinmarketcap top 100 cryptocurrencies
+* `curl rate.sx` — get cryptocurrencies exchange rates
+* `curl moneroj.org` — get Monero exchange rate
+* `curl cmc.rjldev.com` — get coinmarketcap top 100 cryptocurrencies
 * `telnet ticker.bitcointicker.co 10080` — get BTC/USD exchange rate
 
 ## Documentation
 
-* `curl cheat.sh` - UNIX/Linux commands cheat sheets using curl ([chubin/cheat.sh](https://github.com/chubin/cheat.sh))
+* `curl cheat.sh` — UNIX/Linux commands cheat sheets using curl ([chubin/cheat.sh](https://github.com/chubin/cheat.sh))
 
 ## Dictionaries and translators
 
-* `curl 'dict://dict.org/d:command line'`
+* `curl 'dict.org/d:command line'`
 
 ## Generators
 
-* `git commit -m $(curl -sk https://whatthecommit.com/index.txt)` — generate random commit message
+* `git commit -m $(curl -sk whatthecommit.com/index.txt)` — generate random commit message
 * `curl -H 'Accept: text/plain' foaas.com/cool/:from` — fuck off as a service
 * `curl pseudorandom.name` — generate a pseudo random (American?) name ([treyhunner/pseudorandom.name](https://github.com/treyhunner/pseudorandom.name))
 * `curl -s https://uinames.com/api/?region=france\&amount=25 | jq '.[] | .name +" " + .surname'` — generate 25 random french names
@@ -158,7 +177,6 @@ Telnet/SSH-based:
 * `telnet milek7.gq` — games: Pong, Break out, Tetris
 * `telnet aardmud.org` — MUD
 * `telnet mud.darkerrealms.org 2000` — MUD
-
 * `telnet telehack.com`
 
 ## Scripts
@@ -171,7 +189,12 @@ Useful scripts, that can be run with just one line of code, but where, still loc
 
 At least on of the clients, that you need to access these services, is installed in almost every UNIX/Linux system.
 
-* [curl](https://github.com/curl/curl)
-* [httpie](https://github.com/jakubroztocil/httpie) — modern command line HTTP client
+* [aria2](https://aria2.github.io/)
+* [bitsadmin](https://docs.microsoft.com/windows/win32/bits/)
+* [curl](https://curl.haxx.se/)
+* [httpie](https://httpie.org/)
+* [httrack](https://www.httrack.com/)
+* [powershell](https://microsoft.com/powershell/)
+* [rclone](https://rclone.org/)
 * [wget](https://www.gnu.org/software/wget/)
 * [wget2](https://gitlab.com/gnuwget/wget2)
