@@ -110,7 +110,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## Tools
 
 * `curl qrenco.de/STRING` or `echo STRING | curl -F-=\<- qrenco.de` — create QR-code for a string ([chubin/qrenco.de](https://github.com/chubin/qrenco.de))
-* `curl https://mcthomas.github.io/dice/ -s | grep -zoP '(?s)<script.*</script>' | sed -e '1d;$d' -e 's/document.write/console.log/' | node | sed -e 's/<\/*font[^>]*>//g'` - Dice roll ([on macOS, use grep version from brew](https://apple.stackexchange.com/questions/193288/how-to-install-and-use-gnu-grep-in-macos))
+* `curl https://mcthomas.github.io/dice/ -s | grep -zoP '(?s)<script.*</script>' | sed -e '1d;$d' -e 's/document.write/console.log/' | node | sed -e 's/<\/*font[^>]*>//g'` - Dice roll ([on macOS, use grep version from brew](https://apple.stackexchange.com/questions/193288/how-to-install-and-use-gnu-grep-in-macos)) ([mcthomas/JS-Dice-Roller](https://github.com/mcthomas/JS-Dice-Roller))
 
 ## Monitoring
 
