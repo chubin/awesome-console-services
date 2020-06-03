@@ -119,6 +119,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 * `curl wttr.in` or `curl wttr.in/Berlin` — the right way to check the weather
 * `finger oslo@graph.no`
+* `curl https://tgftp.nws.noaa.gov/data/observations/metar/stations/KAAO.TXT` - METAR from the specified ICAO
 
 ## News
 
@@ -164,6 +165,8 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl byemck.atulr.com` — display animated goodbye message for colleagues ([master-atul/byemck](https://github.com/master-atul/byemck))
 * `nc rya.nc 1987` — disco in the console
 * `curl node-web-console.glitch.me` — watch an emoji race ([source](https://glitch.com/edit/#!/node-web-console))
+* `curl ascii.live/forrest` - run Forrest, run!
+* `curl ascii.live/nyan` - watch Nyan Cat
 
 Telnet/SSH-based:
 
