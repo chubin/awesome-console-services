@@ -185,9 +185,10 @@ Telnet/SSH-based:
 
 ## Scripts
 
-Useful scripts, that can be run with just one line of code, but where, still local still execution is necessary.
+Useful scripts, that can be run with just one line of code, but where, still local execution is necessary.
 
 * `curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -`
+* `curl https://mcthomas.github.io/dice/dice.txt 2>/dev/null | bash` - roll the dice!
 
 ## Clients
 
