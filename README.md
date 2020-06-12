@@ -125,6 +125,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 * `curl getnews.tech/world+cup` — fetch the latest news
 * `ssh redditbox.us` — Reddit in terminal (ssh + text browser)
+* `curl wrk.ist` — fetch the latest remote jobs / gigs on the IT market
 
 ## Information boards
 
