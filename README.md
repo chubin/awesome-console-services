@@ -177,6 +177,12 @@ Telnet/SSH-based:
 * `ssh nethack@alt.org` —  a fun roguelike game
 * `ssh play@anonymine-demo.oskog97.com -p 2222` — guess free minesweeper; Pass: play
 * `ssh twenex@sdf.org` —  play various games including checkers
+* `ssh intricacy@sshgames.thegonz.net` - Competitive puzzle; password: intricacy
+* `ssh simulchess@sshgames.thegonz.net` - Multiplayer Chess; password: simulchess
+* `ssh pacman:pacman@antimirov.net` - Pacman; password: pacman
+* `ssh lagrogue@sshgames.thegonz.net` - Roguelike; password: lag
+* `ssh ckhet@sshgames.thegonz.net` - Khet; password: ckhet
+* `telnet darkrealms.ca` - RPG
 * `telnet freechess.org` — Chess Game
 * `telnet milek7.gq` — games: Pong, Break out, Tetris
 * `telnet aardmud.org` — MUD
