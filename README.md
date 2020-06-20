@@ -119,6 +119,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 * `curl wttr.in` or `curl wttr.in/Berlin` — the right way to check the weather
 * `finger oslo@graph.no`
+* `telnet rainmaker.wunderground.com 3000`
 * `curl https://tgftp.nws.noaa.gov/data/observations/metar/stations/KAAO.TXT` - METAR from the specified ICAO
 
 ## News
@@ -185,8 +186,18 @@ Telnet/SSH-based:
 * `telnet darkrealms.ca` - RPG
 * `telnet freechess.org` — Chess Game
 * `telnet milek7.gq` — games: Pong, Break out, Tetris
+* `telnet mtrek.com 1701` — Star Trek
 * `telnet aardmud.org` — MUD
 * `telnet mud.darkerrealms.org 2000` — MUD
+* `telnet achaea.com` — MUD
+* `telnet ateraan.com 4002` — MUD
+* `telnet avalon-rpg.com 23` — MUD
+* `telnet zombiemud.org` — MUD
+* `telnet eclipse.cs.pdx.edu 7680` — MUD
+* `telnet batmud.bat.org 23` — MUD
+* `telnet eclipse.cs.pdx.edu 7680` — MUD
+* `telnet forgottenkingdoms.org 4000` — MUD
+* `telnet igormud.org 1701` — MUD
 * `telnet telehack.com`
 
 ## Scripts
