@@ -177,7 +177,6 @@ Telnet/SSH-based:
 * `ssh sshtron.zachlatta.com` ~> snake game; play with AWSD keys
 * `ssh netris.rocketnine.space` —  multiplayer tetris
 * `ssh gameroom@bitreich.org` - 11 arcade games
-* `ssh nethack@alt.org` —  a fun roguelike game
 * `ssh play@anonymine-demo.oskog97.com -p 2222` — guess free minesweeper; Pass: play
 * `ssh twenex@sdf.org` —  play various games including checkers
 * `ssh intricacy@sshgames.thegonz.net` - Competitive puzzle; password: intricacy
@@ -185,6 +184,9 @@ Telnet/SSH-based:
 * `ssh pacman:pacman@antimirov.net` - Pacman; password: pacman
 * `ssh lagrogue@sshgames.thegonz.net` - Roguelike; password: lag
 * `ssh ckhet@sshgames.thegonz.net` - Khet; password: ckhet
+* `ssh slashem@slashem.me` - nethack and others
+* `ssh rodney@rlgallery.org` - rogue; password: yendor
+* `telnet dungeon.name 20028` - infinite cave adventure
 * `telnet darkrealms.ca` - RPG
 * `telnet freechess.org` — Chess Game
 * `telnet milek7.gq` — games: Pong, Break out, Tetris
@@ -197,7 +199,6 @@ Telnet/SSH-based:
 * `telnet zombiemud.org` — MUD
 * `telnet eclipse.cs.pdx.edu 7680` — MUD
 * `telnet batmud.bat.org 23` — MUD
-* `telnet eclipse.cs.pdx.edu 7680` — MUD
 * `telnet forgottenkingdoms.org 4000` — MUD
 * `telnet igormud.org 1701` — MUD
 * `telnet telehack.com`
