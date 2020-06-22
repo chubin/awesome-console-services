@@ -119,6 +119,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 * `curl wttr.in` or `curl wttr.in/Berlin` — the right way to check the weather
 * `finger oslo@graph.no`
+* `telnet rainmaker.wunderground.com 3000`
 * `curl https://tgftp.nws.noaa.gov/data/observations/metar/stations/KAAO.TXT` - METAR from the specified ICAO
 
 ## News
@@ -158,6 +159,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl -s https://uinames.com/api/?region=france\&amount=25 | jq '.[] | .name +" " + .surname'` — generate 25 random french names
 * `curl https://icanhazdadjoke.com` — random jokes
 * `curl givemeguid.com` - guid
+* `telnet towel.blinkenlights.nl 666` - IT excuses
 
 ## Entertainment and Games
 
@@ -174,7 +176,7 @@ Telnet/SSH-based:
 
 * `ssh sshtron.zachlatta.com` ~> snake game; play with AWSD keys
 * `ssh netris.rocketnine.space` —  multiplayer tetris
-* `ssh nethack@alt.org` —  a fun roguelike game
+* `ssh gameroom@bitreich.org` - 11 arcade games
 * `ssh play@anonymine-demo.oskog97.com -p 2222` — guess free minesweeper; Pass: play
 * `ssh twenex@sdf.org` —  play various games including checkers
 * `ssh intricacy@sshgames.thegonz.net` - Competitive puzzle; password: intricacy
@@ -182,11 +184,15 @@ Telnet/SSH-based:
 * `ssh pacman:pacman@antimirov.net` - Pacman; password: pacman
 * `ssh lagrogue@sshgames.thegonz.net` - Roguelike; password: lag
 * `ssh ckhet@sshgames.thegonz.net` - Khet; password: ckhet
+* `ssh slashem@slashem.me` - nethack and others
+* `ssh rodney@rlgallery.org` - rogue; password: yendor
+* `telnet dungeon.name 20028` - infinite cave adventure
 * `telnet darkrealms.ca` - RPG
 * `telnet freechess.org` — Chess Game
 * `telnet milek7.gq` — games: Pong, Break out, Tetris
+* `telnet mtrek.com 1701` — Star Trek
 * `telnet aardmud.org` — MUD
-* `telnet mud.darkerrealms.org 2000` — MUD
+* `telnet 1984.ws 23` — BBS
 * `telnet telehack.com`
 
 ## Scripts
