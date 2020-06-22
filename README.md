@@ -192,6 +192,7 @@ Telnet/SSH-based:
 * `telnet milek7.gq` — games: Pong, Break out, Tetris
 * `telnet mtrek.com 1701` — Star Trek
 * `telnet aardmud.org` — MUD
+* `telnet 1984.ws 23` — BBS
 * `telnet telehack.com`
 
 ## Scripts
