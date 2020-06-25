@@ -186,6 +186,7 @@ Telnet/SSH-based:
 * `ssh ckhet@sshgames.thegonz.net` - Khet; password: ckhet
 * `ssh slashem@slashem.me` - nethack and others
 * `ssh rodney@rlgallery.org` - rogue; password: yendor
+* `ssh pong.brk.st` - singleplayer pong
 * `telnet dungeon.name 20028` - infinite cave adventure
 * `telnet darkrealms.ca` - RPG
 * `telnet freechess.org` — Chess Game
