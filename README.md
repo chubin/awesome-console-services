@@ -118,19 +118,23 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## Weather
 
 * `curl wttr.in` or `curl wttr.in/Berlin` — the right way to check the weather
-* `finger oslo@graph.no`
+* `finger oslo@graph.no` 
 * `telnet rainmaker.wunderground.com 3000`
 * `curl https://tgftp.nws.noaa.gov/data/observations/metar/stations/KAAO.TXT` - METAR from the specified ICAO
 
 ## News
 
 * `curl getnews.tech/world+cup` — fetch the latest news
-* `ssh redditbox.us` — Reddit in terminal (ssh + text browser)
+* `gopher://gopher.leveck.us:70` - news aggregator
+* `gopher://gopherddit.com:70`  - reddit
+* `ssh redditbox.us` — reddit in terminal (ssh + text browser)
+* `gopher://hngopher.com:70 - hacker news
 * `curl wrk.ist` — fetch the latest remote jobs / gigs on the IT market
 
 ## Information boards
 
 * `curl http://frcl.de/gulasch` — Gulaschprogrammiernacht 2019 Fahrplan
+* `gopher://gopherpedia.com:70` - wikipedia
 
 ## Map
 
@@ -146,6 +150,8 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## Documentation
 
 * `curl cheat.sh` — UNIX/Linux commands cheat sheets using curl ([chubin/cheat.sh](https://github.com/chubin/cheat.sh))
+* `gopher://telcodata.us:70` - NPA/NXX Lookup
+* `gopher://gopher.floodgap.com/1/world` - all known gopher servers
 
 ## Dictionaries and translators
 
@@ -171,9 +177,13 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl node-web-console.glitch.me` — watch an emoji race ([source](https://glitch.com/edit/#!/node-web-console))
 * `curl ascii.live/forrest` - run Forrest, run!
 * `curl ascii.live/nyan` - watch Nyan Cat
-* `gopher.quux.org:70/` - interesting documents and readings
+* `gopher://fld.gp:70` - gopher resources / news / weather / entertainment
+* `gopher://mozz.us:70` - games, drink recipes, and other
+* `gopher://port70.net/1board/b` - 4chan
+* `telnet aardmud.org` — MUD (MUD list [here](http://www.mudconnect.com/cgi-bin/search.cgi?mode=tmc_biglist)
+* `telnet 1984.ws 23` — BBS (BBS list [here](https://www.telnetbbsguide.com/bbs/))
 
-Telnet/SSH-based:
+Telnet/SSH-based games:
 
 * `ssh sshtron.zachlatta.com` ~> snake game; play with AWSD keys
 * `ssh netris.rocketnine.space` —  multiplayer tetris
@@ -193,19 +203,17 @@ Telnet/SSH-based:
 * `telnet freechess.org` — Chess Game
 * `telnet milek7.gq` — games: Pong, Break out, Tetris
 * `telnet mtrek.com 1701` — Star Trek
-* `telnet aardmud.org` — MUD
-* `telnet 1984.ws 23` — BBS
 * `telnet telehack.com`
 
 ## Scripts
 
-Useful scripts, that can be run with just one line of code, but where, still local still execution is necessary.
+Useful scripts, that can be run with just one line of code, but where, still local execution is necessary.
 
 * `curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -`
 
 ## Clients
 
-At least on of the clients, that you need to access these services, is installed in almost every UNIX/Linux system.
+At least one of these clients, that you need to access these services, is installed on almost every UNIX/Linux system.
 
 * [aria2](https://aria2.github.io/)
 * [bitsadmin](https://docs.microsoft.com/windows/win32/bits/)
