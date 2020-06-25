@@ -171,6 +171,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl node-web-console.glitch.me` — watch an emoji race ([source](https://glitch.com/edit/#!/node-web-console))
 * `curl ascii.live/forrest` - run Forrest, run!
 * `curl ascii.live/nyan` - watch Nyan Cat
+* `gopher.quux.org:70/` - interesting documents and readings
 
 Telnet/SSH-based:
 
