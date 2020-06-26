@@ -7,6 +7,8 @@ by_category:
         tags: [curl, plain]
       ifconfig.me:
         tags: [curl, plain]
+      ipaddress.sh:
+        tags: [curl, plain]
       ipecho.net:
         tags: [curl, plain]
       ident.me:
