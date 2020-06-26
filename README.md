@@ -58,6 +58,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl smart-ip.net/myip`
 * `curl ip-api.com/line?fields=query`
 * `curl ifconfig.io/ip`
+* `curl ifconfig.es`
 
 ### DNS
 
@@ -83,6 +84,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 * `curl ipinfo.io/8.8.8.8` or `curl ipinfo.io/8.8.8.8/loc`
 * `curl ifconfig.co/country` or `curl ifconfig.co/city` or `curl ifconfig.co/country-iso` or `http ifconfig.co/json`
+* `curl ifconfig.es/geo` or `curl ifconfig.es/json` or `curl ifconfig.es/country` or `curl ifconfig.es/code` or `curl ifconfig.es/city` or `curl ifconfig.es/latitude` or `curl ifconfig.es/longitude`
 
 ## Text Sharing
 
@@ -118,7 +120,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## Weather
 
 * `curl wttr.in` or `curl wttr.in/Berlin` — the right way to check the weather
-* `finger oslo@graph.no` 
+* `finger oslo@graph.no`
 * `telnet rainmaker.wunderground.com 3000`
 * `curl https://tgftp.nws.noaa.gov/data/observations/metar/stations/KAAO.TXT` - METAR from the specified ICAO
 
