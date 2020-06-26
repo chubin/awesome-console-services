@@ -159,7 +159,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## Generators
 
-* `git commit -m $(curl -sk whatthecommit.com/index.txt)` — generate random commit message
+* `git commit -m "$(curl -sk whatthecommit.com/index.txt)"` —  generate random commit message
 * `curl -H 'Accept: text/plain' foaas.com/cool/:from` — fuck off as a service
 * `curl pseudorandom.name` — generate a pseudo random (American?) name ([treyhunner/pseudorandom.name](https://github.com/treyhunner/pseudorandom.name))
 * `curl -s https://uinames.com/api/?region=france\&amount=25 | jq '.[] | .name +" " + .surname'` — generate 25 random french names
