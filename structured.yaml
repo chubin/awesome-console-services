@@ -23,6 +23,8 @@ by_category:
         tags: [curl, plain]
       bot.whatismyipaddress.com:
         tags: [curl, plain]
+      ipaddy.net:
+        tags: [curl, plain, newline]
       eth0.me:
         tags: [curl, plain, newline]
       ipaddr.site:
