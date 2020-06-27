@@ -59,6 +59,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl ip-api.com/line?fields=query`
 * `curl ifconfig.io/ip`
 * `curl ifconfig.es`
+* `curl ipaddress.sh`
 
 ### DNS
 
