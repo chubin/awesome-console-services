@@ -47,6 +47,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ### New line
 
+* `curl ipaddy.net`
 * `curl eth0.me`
 * `curl ipaddr.site`
 * `curl ifconfig.co`
