@@ -43,10 +43,14 @@ by_category:
         tags: [curl, json]
       wtfismyip.com:
         tags: [curl, json]
+      ifconfig.es:
+        tags: [curl, plain, newline, ipv6]
   - geo:
       ipinfo.io:
         tags: [curl]
       ifconfig.co:
+        tags: [curl]
+      ifconfig.es:
         tags: [curl]
   - sharing:
       ix.io:
