@@ -7,6 +7,8 @@ by_category:
         tags: [curl, plain]
       ifconfig.me:
         tags: [curl, plain]
+      ipaddress.sh:
+        tags: [curl, plain]
       ipecho.net:
         tags: [curl, plain]
       ident.me:
@@ -43,10 +45,14 @@ by_category:
         tags: [curl, json]
       wtfismyip.com:
         tags: [curl, json]
+      ifconfig.es:
+        tags: [curl, plain, newline, ipv6]
   - geo:
       ipinfo.io:
         tags: [curl]
       ifconfig.co:
+        tags: [curl]
+      ifconfig.es:
         tags: [curl]
   - sharing:
       ix.io:
@@ -91,6 +97,8 @@ by_category:
       rate.sx:
         tags: [curl]
       moneroj.org:
+        tags: [curl]
+      stonks.icu:
         tags: [curl]
   - documentation:
       cheat.sh:

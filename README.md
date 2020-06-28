@@ -59,6 +59,8 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl ip-api.com/line?fields=query`
 * `curl ifconfig.io/ip`
 * `curl -s ip.liquidweb.com`
+* `curl ifconfig.es`
+* `curl ipaddress.sh`
 
 ### DNS
 
@@ -68,6 +70,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `dig @ns1.google.com o-o.myaddr.l.google.com TXT -4 +short` (IPv4)
 * `dig resolver.dnscrypt.info TXT +short`
 * `curl https://dnsjson.com/resolver.dnscrypt.info/TXT.json`
+* `curl -L https://edns.ip-api.com/json`
 
 ### JSON only
 
@@ -83,7 +86,9 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## Geolocation
 
 * `curl ipinfo.io/8.8.8.8` or `curl ipinfo.io/8.8.8.8/loc`
+* `curl ip-api.com` or `curl ip-api.com/8.8.8.8`
 * `curl ifconfig.co/country` or `curl ifconfig.co/city` or `curl ifconfig.co/country-iso` or `http ifconfig.co/json`
+* `curl ifconfig.es/geo` or `curl ifconfig.es/json` or `curl ifconfig.es/country` or `curl ifconfig.es/code` or `curl ifconfig.es/city` or `curl ifconfig.es/latitude` or `curl ifconfig.es/longitude`
 
 ## Text Sharing
 
@@ -123,7 +128,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## Weather
 
 * `curl wttr.in` or `curl wttr.in/Berlin` — the right way to check the weather
-* `finger oslo@graph.no` 
+* `finger oslo@graph.no`
 * `telnet rainmaker.wunderground.com 3000`
 * `curl https://tgftp.nws.noaa.gov/data/observations/metar/stations/KAAO.TXT` - METAR from the specified ICAO
 
@@ -151,6 +156,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl moneroj.org` — get Monero exchange rate
 * `curl cmc.rjldev.com` — get coinmarketcap top 100 cryptocurrencies
 * `telnet ticker.bitcointicker.co 10080` — get BTC/USD exchange rate
+* `curl stonks.icu/amd/msft` get stock visualizer and tracker
 
 ## Documentation
 
@@ -164,8 +170,8 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## Generators
 
+* `git commit -m "$(curl -sk whatthecommit.com/index.txt)"` —  generate random commit message
 * curl `"https://www.random.org/integers/?num=1&min=1&max=100&col=1&base=10&format=plain&rnd=new"` - generate random number
-* `git commit -m $(curl -sk whatthecommit.com/index.txt)` — generate random commit message
 * `curl -H 'Accept: text/plain' foaas.com/cool/:from` — fuck off as a service
 * `curl pseudorandom.name` — generate a pseudo random (American?) name ([treyhunner/pseudorandom.name](https://github.com/treyhunner/pseudorandom.name))
 * `curl -s https://uinames.com/api/?region=france\&amount=25 | jq '.[] | .name +" " + .surname'` — generate 25 random french names
@@ -183,6 +189,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl node-web-console.glitch.me` — watch an emoji race ([source](https://glitch.com/edit/#!/node-web-console))
 * `curl ascii.live/forrest` - run Forrest, run!
 * `curl ascii.live/nyan` - watch Nyan Cat
+* `curl https://poptart.spinda.net` — fullscreen colorized Nyan Cat
 * `gopher://fld.gp:70` - gopher resources / news / weather / entertainment
 * `gopher://mozz.us:70` - games, drink recipes, and other
 * `gopher://port70.net/1board/b` - 4chan
