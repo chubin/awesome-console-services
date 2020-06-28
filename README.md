@@ -58,6 +58,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl smart-ip.net/myip`
 * `curl ip-api.com/line?fields=query`
 * `curl ifconfig.io/ip`
+* `curl -s ip.liquidweb.com`
 * `curl ifconfig.es`
 * `curl ipaddress.sh`
 
@@ -115,6 +116,10 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## Tools
 
 * `curl qrenco.de/STRING` or `echo STRING | curl -F-=\<- qrenco.de` — create QR-code for a string ([chubin/qrenco.de](https://github.com/chubin/qrenco.de))
+* `curl "http://c.docverter.com/convert" -F from=html -F to=pdf -F "input_files[]=@your-file-name.html" -o "output-file-name.pdf"` - convert a document ([source](https://github.com/docverter/docverter))
+* `curl -s "https://decapi.me/youtube/latest_video?user=NPR"` - title/URL of latest upload from indicated YouTube channel
+* `curl -s "https://decapi.me/twitter/latest?name=NPR"` - last tweet from indicated account
+* `curl -s "https://decapi.me/twitch/uptime?channel=IGN"` - check if indicated twitch channel is online
 
 ## Monitoring
 
@@ -166,6 +171,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## Generators
 
 * `git commit -m "$(curl -sk whatthecommit.com/index.txt)"` —  generate random commit message
+* curl `"https://www.random.org/integers/?num=1&min=1&max=100&col=1&base=10&format=plain&rnd=new"` - generate random number
 * `curl -H 'Accept: text/plain' foaas.com/cool/:from` — fuck off as a service
 * `curl pseudorandom.name` — generate a pseudo random (American?) name ([treyhunner/pseudorandom.name](https://github.com/treyhunner/pseudorandom.name))
 * `curl -s https://uinames.com/api/?region=france\&amount=25 | jq '.[] | .name +" " + .surname'` — generate 25 random french names
@@ -204,6 +210,7 @@ Telnet/SSH-based games:
 * `ssh slashem@slashem.me` - nethack and others
 * `ssh rodney@rlgallery.org` - rogue; password: yendor
 * `ssh pong.brk.st` - singleplayer pong
+* `ssh tty.sdf.org` - requires you to [make an account](https://sdf.org) first
 * `telnet dungeon.name 20028` - infinite cave adventure
 * `telnet darkrealms.ca` - RPG
 * `telnet freechess.org` — Chess Game
