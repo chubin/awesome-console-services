@@ -58,6 +58,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl smart-ip.net/myip`
 * `curl ip-api.com/line?fields=query`
 * `curl ifconfig.io/ip`
+* `curl -s ip.liquidweb.com`
 
 ### DNS
 
@@ -110,6 +111,10 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## Tools
 
 * `curl qrenco.de/STRING` or `echo STRING | curl -F-=\<- qrenco.de` — create QR-code for a string ([chubin/qrenco.de](https://github.com/chubin/qrenco.de))
+* `curl "http://c.docverter.com/convert" -F from=html -F to=pdf -F "input_files[]=@your-file-name.html" -o "output-file-name.pdf"` - convert a document ([source](https://github.com/docverter/docverter))
+* `curl -s "https://decapi.me/youtube/latest_video?user=NPR"` - title/URL of latest upload from indicated YouTube channel
+* `curl -s "https://decapi.me/twitter/latest?name=NPR"` - last tweet from indicated account
+* `curl -s "https://decapi.me/twitch/uptime?channel=IGN"` - check if indicated twitch channel is online
 
 ## Monitoring
 
