@@ -69,6 +69,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `dig @ns1.google.com o-o.myaddr.l.google.com TXT -4 +short` (IPv4)
 * `dig resolver.dnscrypt.info TXT +short`
 * `curl https://dnsjson.com/resolver.dnscrypt.info/TXT.json`
+* `curl -L https://edns.ip-api.com/json`
 
 ### JSON only
 
@@ -84,6 +85,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## Geolocation
 
 * `curl ipinfo.io/8.8.8.8` or `curl ipinfo.io/8.8.8.8/loc`
+* `curl ip-api.com` or `curl ip-api.com/8.8.8.8`
 * `curl ifconfig.co/country` or `curl ifconfig.co/city` or `curl ifconfig.co/country-iso` or `http ifconfig.co/json`
 * `curl ifconfig.es/geo` or `curl ifconfig.es/json` or `curl ifconfig.es/country` or `curl ifconfig.es/code` or `curl ifconfig.es/city` or `curl ifconfig.es/latitude` or `curl ifconfig.es/longitude`
 
