@@ -203,6 +203,7 @@ Telnet/SSH-based games:
 * `ssh slashem@slashem.me` - nethack and others
 * `ssh rodney@rlgallery.org` - rogue; password: yendor
 * `ssh pong.brk.st` - singleplayer pong
+* `ssh tty.sdf.org` - requires you to [make an account](https://sdf.org) first
 * `telnet dungeon.name 20028` - infinite cave adventure
 * `telnet darkrealms.ca` - RPG
 * `telnet freechess.org` — Chess Game
