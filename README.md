@@ -159,6 +159,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## Generators
 
+* curl `"https://www.random.org/integers/?num=1&min=1&max=100&col=1&base=10&format=plain&rnd=new"` - generate random number
 * `git commit -m $(curl -sk whatthecommit.com/index.txt)` — generate random commit message
 * `curl -H 'Accept: text/plain' foaas.com/cool/:from` — fuck off as a service
 * `curl pseudorandom.name` — generate a pseudo random (American?) name ([treyhunner/pseudorandom.name](https://github.com/treyhunner/pseudorandom.name))
