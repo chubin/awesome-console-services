@@ -98,6 +98,8 @@ by_category:
         tags: [curl]
       moneroj.org:
         tags: [curl]
+      stonks.icu:
+        tags: [curl]
   - documentation:
       cheat.sh:
         tags: [curl]

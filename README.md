@@ -149,6 +149,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl moneroj.org` — get Monero exchange rate
 * `curl cmc.rjldev.com` — get coinmarketcap top 100 cryptocurrencies
 * `telnet ticker.bitcointicker.co 10080` — get BTC/USD exchange rate
+* `curl stonks.icu/amd/msft` get stock visualizer and tracker
 
 ## Documentation
 
