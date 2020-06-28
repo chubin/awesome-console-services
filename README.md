@@ -112,7 +112,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## Browser
 
-* `ssh brow.sh`
+*  :no_entry_sign: `ssh brow.sh`
 
 ## Tools
 
@@ -144,7 +144,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## Information boards
 
-* `curl http://frcl.de/gulasch` — Gulaschprogrammiernacht 2019 Fahrplan
+* :no_entry_sign: `curl http://frcl.de/gulasch` — Gulaschprogrammiernacht 2019 Fahrplan
 * `gopher://gopherpedia.com:70` - wikipedia
 
 ## Map
@@ -154,8 +154,8 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## Money
 
 * `curl rate.sx` — get cryptocurrencies exchange rates
-* `curl moneroj.org` — get Monero exchange rate
-* `curl cmc.rjldev.com` — get coinmarketcap top 100 cryptocurrencies
+* :no_entry_sign: `curl moneroj.org` — get Monero exchange rate
+* :no_entry_sign: `curl cmc.rjldev.com` — get coinmarketcap top 100 cryptocurrencies
 * `telnet ticker.bitcointicker.co 10080` — get BTC/USD exchange rate
 * `curl stonks.icu/amd/msft` get stock visualizer and tracker
 
@@ -175,7 +175,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * curl `"https://www.random.org/integers/?num=1&min=1&max=100&col=1&base=10&format=plain&rnd=new"` - generate random number
 * `curl -H 'Accept: text/plain' foaas.com/cool/:from` — fuck off as a service
 * `curl pseudorandom.name` — generate a pseudo random (American?) name ([treyhunner/pseudorandom.name](https://github.com/treyhunner/pseudorandom.name))
-* `curl -s https://uinames.com/api/?region=france\&amount=25 | jq '.[] | .name +" " + .surname'` — generate 25 random french names
+* :no_entry_sign: `curl -s https://uinames.com/api/?region=france\&amount=25 | jq '.[] | .name +" " + .surname'` — generate 25 random french names
 * `curl https://icanhazdadjoke.com` — random jokes
 * `curl givemeguid.com` - guid
 * `telnet towel.blinkenlights.nl 666` - IT excuses
