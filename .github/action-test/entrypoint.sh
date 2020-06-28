@@ -112,6 +112,7 @@ test_curl 200 bot.whatismyipaddress.com
 test_curl 200 curlmyip.net
 
 echo -e "### new line"
+test_curl 200 ipaddy.net
 test_curl 200 eth0.me
 test_curl 200 ipaddr.site
 test_curl 200 ifconfig.co
