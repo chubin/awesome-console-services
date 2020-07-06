@@ -120,6 +120,7 @@ test_curl 200 curlmyip.net
 test_curl 200 ipinfo.io/ip
 test_curl 200 icanhazip.com
 test_curl 200 checkip.amazonaws.com
+test_curl 200 ifconfig.es
 
 echo -e "### DNS"
 # dont know how to test dig, exit code always return 0
@@ -142,6 +143,13 @@ test_curl 200 ifconfig.co/country
 test_curl 200 ifconfig.co/city
 test_curl 200 ifconfig.co/country-iso
 test_curl 200 ifconfig.co/json
+test_curl 200 ifconfig.es/country
+test_curl 200 ifconfig.es/code
+test_curl 200 ifconfig.es/city
+test_curl 200 ifconfig.es/latitude
+test_curl 200 ifconfig.es/longitude
+test_curl 200 ifconfig.es/geo
+test_curl 200 ifconfig.es/json
 
 echo -e "## Text Sharing"
 ## * `echo "Hello world!" | curl -F 'f:1=<-' ix.io`
