@@ -129,7 +129,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 * `curl wttr.in` or `curl wttr.in/Berlin` — the right way to check the weather
 * `finger oslo@graph.no`
-* `telnet rainmaker.wunderground.com 3000`
+* `nc rainmaker.wunderground.com 3000` (also works with telnet)
 * `curl https://tgftp.nws.noaa.gov/data/observations/metar/stations/KAAO.TXT` - METAR from the specified ICAO
 
 ## News
@@ -155,7 +155,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl rate.sx` — get cryptocurrencies exchange rates
 * `curl moneroj.org` — get Monero exchange rate
 * `curl cmc.rjldev.com` — get coinmarketcap top 100 cryptocurrencies
-* `telnet ticker.bitcointicker.co 10080` — get BTC/USD exchange rate
+* `nc ticker.bitcointicker.co 10080` — get BTC/USD exchange rate (also works with telnet)
 * `curl stonks.icu/amd/msft` get stock visualizer and tracker
 
 ## Documentation
@@ -177,13 +177,12 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl -s https://uinames.com/api/?region=france\&amount=25 | jq '.[] | .name +" " + .surname'` — generate 25 random french names
 * `curl https://icanhazdadjoke.com` — random jokes
 * `curl givemeguid.com` - guid
-* `telnet towel.blinkenlights.nl 666` - IT excuses
+* `nc towel.blinkenlights.nl 666` - IT excuses (also works with telnet)
 
 ## Entertainment and Games
 
 * `curl https://asciitv.fr` — watch StarWars in terminal via curl ([source](https://github.com/martinraison/ascii-tv))
-* `nc towel.blinkenlights.nl 23` — watch StarWars in terminal via netcat
-* `telnet towel.blinkenlights.nl 23` — watch StarWars in terminal via telnet
+* `nc towel.blinkenlights.nl 23` — watch StarWars in terminal via netcat (also works with telnet)
 * `ssh chat.shazow.net` — chat over SSH ([shazow/ssh-chat](https://github.com/shazow/ssh-chat))
 * `ssh chat@ascii.town` — SSH chat client ([source](https://git.causal.agency/catgirl))
 * `curl parrot.live` — display an animated party parrot ([hugomd/parrot.live](https://github.com/hugomd/parrot.live))
