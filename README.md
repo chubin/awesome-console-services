@@ -230,7 +230,6 @@ Telnet/SSH-based games:
 Useful scripts, that can be run with just one line of code, but where, still local execution is necessary.
 
 * `curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -`
-* `curl -s -L http://bit.ly/10hA8iC | bash`
 
 ## Clients
 
