@@ -181,7 +181,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## Entertainment and Games
 
-* `curl https://asciitv.fr` — watch StarWars in terminal via curl
+* `curl https://asciitv.fr` — watch StarWars in terminal via curl ([source](https://github.com/martinraison/ascii-tv))
 * `nc towel.blinkenlights.nl 23` — watch StarWars in terminal via netcat
 * `telnet towel.blinkenlights.nl 23` — watch StarWars in terminal via telnet
 * `ssh chat.shazow.net` — chat over SSH ([shazow/ssh-chat](https://github.com/shazow/ssh-chat))
