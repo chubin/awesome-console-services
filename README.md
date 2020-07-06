@@ -221,7 +221,7 @@ Telnet/SSH-based games:
 * `telnet milek7.gq` — games: Pong, Break out, Tetris
 * `telnet mtrek.com 1701` — Star Trek
 * `telnet telehack.com`
-* `telnet aardmud.org` — MUD (MUD list [here](http://www.mudconnect.com/cgi-bin/search.cgi?mode=tmc_biglist)
+* `telnet aardmud.org` — MUD (MUD list [here](http://www.mudconnect.com/cgi-bin/search.cgi?mode=tmc_biglist))
 
 ## Scripts
 
