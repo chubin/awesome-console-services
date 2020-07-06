@@ -182,8 +182,11 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## Entertainment and Games
 
-* `nc towel.blinkenlights.nl 23` — watch StarWars in terminal
+* `curl https://asciitv.fr` — watch StarWars in terminal via curl ([source](https://github.com/martinraison/ascii-tv))
+* `nc towel.blinkenlights.nl 23` — watch StarWars in terminal via netcat
+* `telnet towel.blinkenlights.nl 23` — watch StarWars in terminal via telnet
 * `ssh chat.shazow.net` — chat over SSH ([shazow/ssh-chat](https://github.com/shazow/ssh-chat))
+* `ssh chat@ascii.town` — SSH chat client ([source](https://git.causal.agency/catgirl))
 * `curl parrot.live` — display an animated party parrot ([hugomd/parrot.live](https://github.com/hugomd/parrot.live))
 * `curl byemck.atulr.com` — display animated goodbye message for colleagues ([master-atul/byemck](https://github.com/master-atul/byemck))
 * `nc rya.nc 1987` — disco in the console
@@ -194,12 +197,14 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `gopher://fld.gp:70` - gopher resources / news / weather / entertainment
 * `gopher://mozz.us:70` - games, drink recipes, and other
 * `gopher://port70.net/1board/b` - 4chan
+* `ssh torus@ascii.town` - collaborative ASCII art project ([source](https://git.causal.agency/torus))
 * `telnet 1984.ws 23` — BBS (BBS list [here](https://www.telnetbbsguide.com/bbs/))
 
 Telnet/SSH-based games:
 
 * `ssh sshtron.zachlatta.com` ~> snake game; play with AWSD keys
 * `ssh netris.rocketnine.space` —  multiplayer tetris
+* `ssh play@ascii.town` —  2048 ([source](https://git.causal.agency/play))
 * `ssh gameroom@bitreich.org` - 11 arcade games
 * `ssh play@anonymine-demo.oskog97.com -p 2222` — guess free minesweeper; Pass: play
 * `ssh twenex@sdf.org` —  play various games including checkers
@@ -225,6 +230,7 @@ Telnet/SSH-based games:
 Useful scripts, that can be run with just one line of code, but where, still local execution is necessary.
 
 * `curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -`
+* `curl -s -L http://bit.ly/10hA8iC | bash`
 
 ## Clients
 
