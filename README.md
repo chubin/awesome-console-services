@@ -181,13 +181,13 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## Entertainment and Games
 
-* `curl https://asciitv.fr` — watch StarWars in terminal via curl ([source](https://github.com/martinraison/ascii-tv))
-* `nc towel.blinkenlights.nl 23` — watch StarWars in terminal via netcat (also works with telnet)
+* `curl https://asciitv.fr` — watch Star Wars in terminal via curl ([source](https://github.com/martinraison/ascii-tv))
+* `nc towel.blinkenlights.nl 23` — watch Star Wars in terminal via netcat (also works with telnet)
 * `ssh chat.shazow.net` — chat over SSH ([shazow/ssh-chat](https://github.com/shazow/ssh-chat))
 * `ssh chat@ascii.town` — SSH chat client ([source](https://git.causal.agency/catgirl))
 * `curl parrot.live` — display an animated party parrot ([hugomd/parrot.live](https://github.com/hugomd/parrot.live))
 * `curl byemck.atulr.com` — display animated goodbye message for colleagues ([master-atul/byemck](https://github.com/master-atul/byemck))
-* `nc rya.nc 1987` — disco in the console
+* `nc rya.nc 1987` — get Rick Rolled (also works with telnet)
 * `curl node-web-console.glitch.me` — watch an emoji race ([source](https://glitch.com/edit/#!/node-web-console))
 * `curl ascii.live/forrest` - run Forrest, run!
 * `curl ascii.live/nyan` - watch Nyan Cat
