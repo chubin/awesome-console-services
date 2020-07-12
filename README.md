@@ -140,7 +140,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `gopher://gopherddit.com:70`  - reddit
 * `ssh redditbox.us` — reddit in terminal (ssh + text browser)
 * `gopher://hngopher.com:70` - hacker news
-* `curl wrk.ist` — fetch the latest remote jobs / gigs on the IT market
+* :no_entry_sign: `curl wrk.ist` — fetch the latest remote jobs / gigs on the IT market
 
 ## Information boards
 
