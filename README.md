@@ -217,10 +217,11 @@ Telnet/SSH-based games:
 * `ssh pong.brk.st` - singleplayer pong
 * `ssh tty.sdf.org` - requires you to [make an account](https://sdf.org) first
 * `telnet dungeon.name 20028` - infinite cave adventure
-* `telnet darkrealms.ca` - RPG
 * `telnet freechess.org` — Chess Game
 * `telnet milek7.gq` — games: Pong, Break out, Tetris
 * `telnet mtrek.com 1701` — Star Trek
+* `telnet igs.joyjoy.net 6969` - play/watch the game of Go
+* `telnet fibs.com 4321` - multiplayer backgammon
 * `telnet telehack.com`
 * `telnet aardmud.org` — MUD (MUD list [here](http://www.mudconnect.com/cgi-bin/search.cgi?mode=tmc_biglist))
 
