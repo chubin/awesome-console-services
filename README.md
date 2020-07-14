@@ -216,14 +216,15 @@ Telnet/SSH-based games:
 * `ssh rodney@rlgallery.org` - rogue; password: yendor
 * `ssh pong.brk.st` - singleplayer pong
 * `ssh tty.sdf.org` - requires you to [make an account](https://sdf.org) first
+* `nc aardmud.org 23` — MUD (MUD list [here](http://www.mudconnect.com/cgi-bin/search.cgi?mode=tmc_biglist), also works with telnet)
+* `nc freechess.org 23` — Chess Game (also works with telnet)
+* `nc igs.joyjoy.net 6969` - play/watch the game of Go (also works with telnet))
+* `nc fibs.com 4321` - multiplayer backgammon (also works with telnet)
 * `telnet dungeon.name 20028` - infinite cave adventure
-* `telnet freechess.org` — Chess Game
 * `telnet milek7.gq` — games: Pong, Break out, Tetris
 * `telnet mtrek.com 1701` — Star Trek
-* `telnet igs.joyjoy.net 6969` - play/watch the game of Go
-* `telnet fibs.com 4321` - multiplayer backgammon
 * `telnet telehack.com`
-* `telnet aardmud.org` — MUD (MUD list [here](http://www.mudconnect.com/cgi-bin/search.cgi?mode=tmc_biglist))
+
 
 ## Scripts
 
