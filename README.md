@@ -124,6 +124,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl -s "https://decapi.me/twitch/uptime?channel=IGN"` - check if indicated twitch channel is online
 * `curl -s "https://httpbin.org/delay/4"` - HTTP request and response Service (e.g. send response after 4 seconds)
 * `curl -s "https://urlecho.appspot.com/echo?body=Hello+World"` - HTTP response defined in the request parameters
+* `curl -s "https://urlreq.appspot.com/req?method=GET&url=https://l2.io/ip"` - HTTP proxy makes new requests based on input parameters
 
 ## Monitoring
 
