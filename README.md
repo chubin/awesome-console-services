@@ -121,6 +121,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl -s "https://decapi.me/youtube/latest_video?user=NPR"` - title/URL of latest upload from indicated YouTube channel
 * `curl -s "https://decapi.me/twitter/latest?name=NPR"` - last tweet from indicated account
 * `curl -s "https://decapi.me/twitch/uptime?channel=IGN"` - check if indicated twitch channel is online
+* `ssh vtm@netxs.online` - demo the "Monotty" text-based desktop environment ([source](https://github.com/netxs-group/VTM))
 
 ## Monitoring
 
