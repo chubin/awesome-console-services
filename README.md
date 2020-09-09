@@ -224,6 +224,7 @@ Telnet/SSH-based games:
 * `telnet dungeon.name 20028` - infinite cave adventure
 * `telnet milek7.gq` — games: Pong, Break out, Tetris
 * `telnet mtrek.com 1701` — Star Trek
+* `telnet decwars.com 1701` — Multiplayer Star Trek
 * `telnet telehack.com`
 
 
