@@ -202,6 +202,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `gopher://port70.net/1board/b` - 4chan
 * `ssh torus@ascii.town` - collaborative ASCII art project ([source](https://git.causal.agency/torus))
 * `telnet 1984.ws 23` — BBS (BBS list [here](https://www.telnetbbsguide.com/bbs/))
+* `ssh vtm@netxs.online` - demo the "Monotty" text-based desktop environment ([source](https://github.com/netxs-group/VTM))
 
 Telnet/SSH-based games:
 
@@ -227,6 +228,7 @@ Telnet/SSH-based games:
 * `telnet dungeon.name 20028` - infinite cave adventure
 * `telnet milek7.gq` — games: Pong, Break out, Tetris
 * `telnet mtrek.com 1701` — Star Trek
+* `telnet decwars.com 1701` — Multiplayer Star Trek
 * `telnet telehack.com`
 
 
