@@ -98,6 +98,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `echo "Hello world!" | curl -F 'clbin=<-' https://clbin.com`
 * `echo "Hello world!" | nc termbin.com 9999`
 * `echo "Hello world!" | curl -F 'sprunge=<-' sprunge.us`
+* `echo "Hello world!" | curl -H "content-type: text/plain" -d @- https://textdb.dev/api/data/unique-id-for-my-text`
 
 ## URL shortener
 
@@ -121,7 +122,9 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl -s "https://decapi.me/youtube/latest_video?user=NPR"` - title/URL of latest upload from indicated YouTube channel
 * `curl -s "https://decapi.me/twitter/latest?name=NPR"` - last tweet from indicated account
 * `curl -s "https://decapi.me/twitch/uptime?channel=IGN"` - check if indicated twitch channel is online
-* `ssh vtm@netxs.online` - demo the "Monotty" text-based desktop environment ([source](https://github.com/netxs-group/VTM))
+* `curl -s "https://httpbin.org/delay/4"` - HTTP request and response Service (e.g. send response after 4 seconds)
+* `curl -s "https://urlecho.appspot.com/echo?body=Hello+World"` - HTTP response defined in the request parameters
+* `curl -s "https://urlreq.appspot.com/req?method=GET&url=https://l2.io/ip"` - HTTP proxy makes new requests based on input parameters
 
 ## Monitoring
 
@@ -141,7 +144,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `gopher://gopherddit.com:70`  - reddit
 * `ssh redditbox.us` — reddit in terminal (ssh + text browser)
 * `gopher://hngopher.com:70` - hacker news
-* `curl wrk.ist` — fetch the latest remote jobs / gigs on the IT market
+* :no_entry_sign: `curl wrk.ist` — fetch the latest remote jobs / gigs on the IT market
 
 ## Information boards
 
@@ -199,6 +202,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `gopher://port70.net/1board/b` - 4chan
 * `ssh torus@ascii.town` - collaborative ASCII art project ([source](https://git.causal.agency/torus))
 * `telnet 1984.ws 23` — BBS (BBS list [here](https://www.telnetbbsguide.com/bbs/))
+* `ssh vtm@netxs.online` - demo the "Monotty" text-based desktop environment ([source](https://github.com/netxs-group/VTM))
 
 Telnet/SSH-based games:
 
