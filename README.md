@@ -30,7 +30,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ### Inline
 
 * `curl l2.io/ip`
-* `curl echoip.de`
+* `curl https://echoip.de`
 * `curl ifconfig.me`
 * `curl ipecho.net/plain`
 * `curl -L ident.me` #[API](http://api.ident.me)
