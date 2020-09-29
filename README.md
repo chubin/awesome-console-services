@@ -84,6 +84,9 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl gd.geobytes.com/GetCityDetails`
 * `curl ip.jsontest.com`
 
+### JA3 SSL fingerprint Search
+* `curl https://ja3er.com/search/535886c8d0a1b14f02298967bb990171`
+
 ## Geolocation
 
 * `curl ipinfo.io/8.8.8.8` or `curl ipinfo.io/8.8.8.8/loc`
