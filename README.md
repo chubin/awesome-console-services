@@ -84,9 +84,6 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl gd.geobytes.com/GetCityDetails`
 * `curl ip.jsontest.com`
 
-### JA3 SSL fingerprint Search
-* `curl https://ja3er.com/search/535886c8d0a1b14f02298967bb990171`
-
 ## Geolocation
 
 * `curl ipinfo.io/8.8.8.8` or `curl ipinfo.io/8.8.8.8/loc`
@@ -128,6 +125,10 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl -s "https://httpbin.org/delay/4"` - HTTP request and response Service (e.g. send response after 4 seconds)
 * `curl -s "https://urlecho.appspot.com/echo?body=Hello+World"` - HTTP response defined in the request parameters
 * `curl -s "https://urlreq.appspot.com/req?method=GET&url=https://l2.io/ip"` - HTTP proxy makes new requests based on input parameters
+
+## Cryptography
+
+* `curl https://ja3er.com/search/535886c8d0a1b14f02298967bb990171` - SSL fingerprint search
 
 ## Monitoring
 
