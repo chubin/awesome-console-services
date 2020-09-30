@@ -92,7 +92,6 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl ifconfig.co/country` or `curl ifconfig.co/city` or `curl ifconfig.co/country-iso` or `http ifconfig.co/json`
 * `curl ifconfig.es/geo` or `curl ifconfig.es/json` or `curl ifconfig.es/country` or `curl ifconfig.es/code` or `curl ifconfig.es/city` or `curl ifconfig.es/latitude` or `curl ifconfig.es/longitude`
 
-
 ## Text Sharing
 
 * `echo "Hello world!" | curl -F 'f:1=<-' ix.io`
