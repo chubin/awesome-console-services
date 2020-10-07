@@ -131,6 +131,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl -s "https://api.hackertarget.com/nmap/?q=93.184.216.34"` - TCP port scan using NMAP
 * `curl -s "https://api.hackertarget.com/pagelinks/?q=msn.com"` - Extract all links from a page
 * `curl -s "https://api.hackertarget.com/whois/?q=google.com"` - Whois lookup
+* `curl -s "https://jsonplaceholder.typicode.com/users"` - Useful tool to retrieve fake api data
 
 ## Cryptography
 
