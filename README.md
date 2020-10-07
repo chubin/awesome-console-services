@@ -72,6 +72,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `dig resolver.dnscrypt.info TXT +short`
 * `curl https://dnsjson.com/resolver.dnscrypt.info/TXT.json`
 * `curl -L https://edns.ip-api.com/json`
+* `curl 'api.hackertarget.com/zonetransfer/?q=zonetransfer.me'` - DNS Zone Transfer
 
 ### JSON only
 
@@ -99,6 +100,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `echo "Hello world!" | nc termbin.com 9999`
 * `echo "Hello world!" | curl -F 'sprunge=<-' sprunge.us`
 * `echo "Hello world!" | curl -H "content-type: text/plain" -d @- https://textdb.dev/api/data/unique-id-for-my-text`
+* `curl https://patchbay.pub/your-custom-path -d "Hello world!"` and `curl -s https://patchbay.pub/your-custom-path`
 
 ## URL shortener
 
@@ -110,6 +112,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl --upload-file <file> transfer.sh/<filename>`
 * `curl --upload-file <file> filepush.co/upload/<filename>`
 * `curl -F file=@<file> https://ttm.sh`
+* `curl https://patchbay.pub/your-custom-filepath.exe --data-binary @<file>` and `curl -LO https://patchbay.pub/your-custom-filepath.exe`
 
 ## Browser
 
@@ -125,6 +128,9 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl -s "https://httpbin.org/delay/4"` - HTTP request and response Service (e.g. send response after 4 seconds)
 * `curl -s "https://urlecho.appspot.com/echo?body=Hello+World"` - HTTP response defined in the request parameters
 * `curl -s "https://urlreq.appspot.com/req?method=GET&url=https://l2.io/ip"` - HTTP proxy makes new requests based on input parameters
+* `curl -s "https://api.hackertarget.com/nmap/?q=93.184.216.34"` - TCP port scan using NMAP
+* `curl -s "https://api.hackertarget.com/pagelinks/?q=msn.com"` - Extract all links from a page
+* `curl -s "https://api.hackertarget.com/whois/?q=google.com"` - Whois lookup
 * `curl -s "https://jsonplaceholder.typicode.com/users"` - Useful tool to retrieve fake api data
 
 ## Cryptography
@@ -171,6 +177,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## Documentation
 
 * `curl cheat.sh` — UNIX/Linux commands cheat sheets using curl ([chubin/cheat.sh](https://github.com/chubin/cheat.sh))
+* `curl 'api.hackertarget.com/subnetcalc/?q=192.168.1.0/24'` Subnet calculator
 * `gopher://telcodata.us:70` - NPA/NXX Lookup
 * `gopher://gopher.floodgap.com/1/world` - all known gopher servers
 
