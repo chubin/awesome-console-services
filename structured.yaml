@@ -88,6 +88,9 @@ by_category:
       graph.no:
         tags: [finger]
   - news:
+      snf-878293.vm.okeanos.grnet.gr:
+        tags: [curl]
+        repository: https://github.com/catman85/TermApp-Node-Typesript-Docker-Express
       getnews.tech:
         tags: [curl]
       txtn.ws:
