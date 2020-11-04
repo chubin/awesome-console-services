@@ -182,6 +182,7 @@ test_curl 200 wttr.in/semarang
 # test_finger "Meteogram for norway" oslo@graph.no
 
 echo -e "## News"
+test_curl 200 snf-878293.vm.okeanos.grnet.gr
 test_curl 200 getnews.tech/world+cup
 # alpine doesnt have gopher
 # * `gopher txtn.ws`
