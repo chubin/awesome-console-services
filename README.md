@@ -151,6 +151,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## News
 
+* `curl snf-878293.vm.okeanos.grnet.gr` - Covid-19 statistics for your country
 * `curl getnews.tech/world+cup` — fetch the latest news
 * `gopher://gopher.leveck.us:70` - news aggregator
 * `gopher://gopherddit.com:70`  - reddit
