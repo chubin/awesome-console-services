@@ -151,7 +151,6 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## News
 
-* `curl snf-878293.vm.okeanos.grnet.gr` - Covid-19 statistics for your country
 * `curl getnews.tech/world+cup` — fetch the latest news
 * `gopher://gopher.leveck.us:70` - news aggregator
 * `gopher://gopherddit.com:70`  - reddit
@@ -163,6 +162,12 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 * :no_entry_sign: `curl http://frcl.de/gulasch` — Gulaschprogrammiernacht 2019 Fahrplan
 * `gopher://gopherpedia.com:70` - wikipedia
+
+### COVID-19
+
+* `curl https://corona-stats.online`
+* `curl -L covid19.trackercli.com`
+* `curl snf-878293.vm.okeanos.grnet.gr` - Covid-19 statistics for your country
 
 ## Map
 
