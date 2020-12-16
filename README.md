@@ -114,6 +114,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl --upload-file <file> filepush.co/upload/<filename>`
 * `curl -F file=@<file> https://ttm.sh`
 * `curl https://patchbay.pub/your-custom-filepath.exe --data-binary @<file>` and `curl -LO https://patchbay.pub/your-custom-filepath.exe`
+* `nc oshi.at 7777 < file`
 
 ## Browser
 
