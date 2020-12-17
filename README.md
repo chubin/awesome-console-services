@@ -107,6 +107,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 * `curl -s tinyurl.com/api-create.php?url=<link>`
 * :no_entry_sign: `curl -F shorten=<link> https://ttm.sh`
+* `curl https://is.gd/create.php?format=simple&url=<link>`
 
 ## File Transfer
 
