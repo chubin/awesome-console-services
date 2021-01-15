@@ -20,8 +20,8 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
   - [Money](#Money "Exchange rates and financial information")
   - [Documentation](#Documentation "Manuals, cheat sheets and FAQs")
   - [Dictionaries and translators](#Dictionaries-and-translators "Dictionaries and translators")
-  - [Generators](#Humour "Messages/texts/jokes/fortunes/names generators")
-  - [Entertainment](#Entertainment "Chats, games and fun")
+  - [Generators](#Generators "Messages/texts/jokes/fortunes/names generators")
+  - [Entertainment](#Entertainment-and-games "Chats, games and fun")
   - [Scripts](#Scripts "Scripts")
   - [Clients](#Clients "Clients")
 
