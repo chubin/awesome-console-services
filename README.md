@@ -154,10 +154,12 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## News
 
 * `curl getnews.tech/world+cup` — fetch the latest news
+* `curl rate.sx` - for exploring (crypto)currencies exchange rates
 * `gopher://gopher.leveck.us:70` - news aggregator
 * `gopher://gopherddit.com:70`  - reddit
 * `ssh redditbox.us` — reddit in terminal (ssh + text browser)
 * `gopher://hngopher.com:70` - hacker news
+
 * :no_entry_sign: `curl wrk.ist` — fetch the latest remote jobs / gigs on the IT market
 
 ## Information boards
