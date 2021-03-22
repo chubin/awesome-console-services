@@ -184,7 +184,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * :no_entry_sign: `curl cmc.rjldev.com` — get coinmarketcap top 100 cryptocurrencies
 * `nc ticker.bitcointicker.co 10080` — get BTC/USD exchange rate (also works with telnet)
 * `curl stonks.icu/amd/msft` get stock visualizer and tracker
-* `curl terminal-stocks.herokuapp.com/GOOG` - get stocks prices and information
+* `curl terminal-stocks.shashi.dev/:ticker` - get stocks prices and information for provided yahoo ticker
 * `ssh cointop.sh` - cryptocurrency tracking TUI ([source](https://github.com/miguelmota/cointop))
 
 ## Documentation
