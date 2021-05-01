@@ -72,6 +72,8 @@ by_category:
   - file:
       transfer.sh:
         tags: [curl]
+      api.anonfile.com:
+        tags: [curl]
   - browser:
       brow.sh:
         tags: [ssh]

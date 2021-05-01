@@ -108,6 +108,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl -s tinyurl.com/api-create.php?url=<link>`
 * :no_entry_sign: `curl -F shorten=<link> https://ttm.sh`
 * `curl https://is.gd/create.php?format=simple&url=<link>`
+* `curl -F shorten=<link> https://0x0.st`
 
 ## File Transfer
 
@@ -116,6 +117,8 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl -F file=@<file> https://ttm.sh`
 * `curl https://patchbay.pub/your-custom-filepath.exe --data-binary @<file>` and `curl -LO https://patchbay.pub/your-custom-filepath.exe`
 * `nc oshi.at 7777 < <file>` or `curl https://oshi.at -F f=@<file>`
+* `curl -F file=@<file> https://0x0.st`
+* `curl -F file=@<file> https://api.anonfile.com/upload`
 
 ## Browser
 
