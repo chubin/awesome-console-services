@@ -238,7 +238,7 @@ Telnet/SSH-based games:
 
 * `ssh sshtron.zachlatta.com` ~> snake game; play with AWSD keys
 * `ssh netris.rocketnine.space` —  multiplayer tetris
-* `ssh play@ascii.town` —  2048 ([source](https://git.causal.agency/play))
+* `ssh play@ascii.town` —  2048, snake, and freecell ([source](https://git.causal.agency/play))
 * `ssh gameroom@bitreich.org` - 11 arcade games
 * `ssh play@anonymine-demo.oskog97.com -p 2222` — guess free minesweeper; Pass: play
 * `ssh twenex@sdf.org` —  play various games including checkers
