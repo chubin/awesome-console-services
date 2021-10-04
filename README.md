@@ -260,6 +260,7 @@ Telnet/SSH-based games:
 * `telnet mtrek.com 1701` — Star Trek
 * `telnet decwars.com 1701` — Multiplayer Star Trek
 * `telnet telehack.com`
+* `telnet multizork.icculus.org` — Multiplayer Zork
 
 
 ## Scripts
