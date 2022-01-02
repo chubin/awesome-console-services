@@ -268,6 +268,8 @@ Telnet/SSH-based games:
 Useful scripts, that can be run with just one line of code, but where, still local execution is necessary.
 
 * `curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -`
+* `curl -sL https://raw.githubusercontent.com/dylanaraps/neofetch/master/neofetch | bash`
+* `curl -sL https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash`
 
 ## Clients
 
