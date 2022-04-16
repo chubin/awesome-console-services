@@ -146,7 +146,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## Monitoring
 
-* `curl ping.gg`
+* `curl ping.gl`
 
 ## Weather
 
