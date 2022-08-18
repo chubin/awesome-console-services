@@ -272,6 +272,8 @@ Useful scripts, that can be run with just one line of code, but where, still loc
 * `curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -`
 * `curl -sL https://raw.githubusercontent.com/dylanaraps/neofetch/master/neofetch | bash`
 * `curl -sL https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash`
+* `sh -c "$(curl -fsLS https://info-mono.github.io/emwave)" -- <string>`
+* `sh -c "$(curl -fsLS https://info-mono.github.io/colortest)" -- <options>`
 
 ## Clients
 
