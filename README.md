@@ -159,6 +159,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## News
 
 * `curl getnews.tech/world+cup` — fetch the latest news
+* `curl hkkr.in` - [Hacker News feed](github.com/NalinPlad/hkkr.in)
 * `curl rate.sx` - for exploring (crypto)currencies exchange rates
 * `gopher://gopher.leveck.us:70` - news aggregator
 * `gopher://gopherddit.com:70`  - reddit
