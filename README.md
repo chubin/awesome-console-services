@@ -234,7 +234,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `ssh torus@ascii.town` - collaborative ASCII art project ([source](https://git.causal.agency/torus))
 * `telnet 1984.ws 23` — BBS (BBS list [here](https://www.telnetbbsguide.com/bbs/))
 * `ssh vtm@netxs.online` - demo the "Monotty" text-based desktop environment ([source](https://github.com/netxs-group/VTM))
-* `curl e.xec.sh` — seach and display gifs in your terminal
+* `curl gif.xyzzy.run` — search and display gifs in your terminal
 
 Telnet/SSH-based games:
 
