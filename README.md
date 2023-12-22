@@ -119,6 +119,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `nc oshi.at 7777 < <file>` or `curl https://oshi.at -F f=@<file>`
 * `curl -F file=@<file> https://0x0.st`
 * `curl -F file=@<file> https://api.anonfile.com/upload`
+* `curl -T <file> https://pixeldrain.com/api/file/`
 
 ## Browser
 
