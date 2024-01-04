@@ -50,6 +50,8 @@ by_category:
       ifconfig.es:
         tags: [curl, plain, newline, ipv6]
   - geo:
+      api.ip2location.io:
+        tags: [curl]
       ipinfo.io:
         tags: [curl]
       ifconfig.co:
