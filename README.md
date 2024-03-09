@@ -138,6 +138,9 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl -s "https://api.hackertarget.com/pagelinks/?q=msn.com"` - Extract all links from a page
 * `curl -s "https://api.hackertarget.com/whois/?q=google.com"` - Whois lookup
 * `curl -s "https://jsonplaceholder.typicode.com/users"` - Useful tool to retrieve fake api data
+* `ssh unix50@unix50.org - password is unix50` - Create and use instances of historical UNIX systems
+* `ssh new@sdf.org` - Create a free UNIX shell account to be used with the SDF Public Access UNIX System
+* `dig help @dns.toys` - Lists a plethora of available services from [dns.toys](https://www.dns.toys/)
 
 ## Cryptography
 
@@ -217,8 +220,10 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## Entertainment and Games
 
+* `ssh -o StrictHostKeyChecking=no watch.ascii.theater` - stream free text-based movies in your terminal 
 * `curl https://asciitv.fr` — watch Star Wars in terminal via curl ([source](https://github.com/martinraison/ascii-tv))
 * `nc towel.blinkenlights.nl 23` — watch Star Wars in terminal via netcat (also works with telnet)
+* `ssh movie.gabe565.com` - watch Star Wars with playback controls in terminal via ssh
 * `ssh chat.shazow.net` — chat over SSH ([shazow/ssh-chat](https://github.com/shazow/ssh-chat))
 * `ssh chat@ascii.town` — SSH chat client ([source](https://git.causal.agency/catgirl))
 * `curl parrot.live` — display an animated party parrot ([hugomd/parrot.live](https://github.com/hugomd/parrot.live))
@@ -235,6 +240,9 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `telnet 1984.ws 23` — BBS (BBS list [here](https://www.telnetbbsguide.com/bbs/))
 * `ssh vtm@netxs.online` - demo the "Monotty" text-based desktop environment ([source](https://github.com/netxs-group/VTM))
 * `curl gif.xyzzy.run` — search and display gifs in your terminal
+* `curl -sL https://raw.githubusercontent.com/gsobell/duckpond/home/duckpond.sh | bash` - watch a duck swim across your terminal
+* `cat mario.nes | nc play-nes.org 4444` - emulate roms over netcat (requires you to pass a local rom file) ([source](https://github.com/henrikpersson/potatis))
+* `finger @happynetbox.com` - take part in an experimental internet social experience
 
 Telnet/SSH-based games:
 
@@ -253,6 +261,7 @@ Telnet/SSH-based games:
 * `ssh rodney@rlgallery.org` - rogue; password: yendor
 * `ssh pong.brk.st` - singleplayer pong
 * `ssh tty.sdf.org` - requires you to [make an account](https://sdf.org) first
+* `ssh -p 8080 -l magnetic magneticscrolls.net` - interactive fiction text adventure games developed by Magnetic Scrolls 
 * `nc aardmud.org 23` — MUD (MUD list [here](http://www.mudconnect.com/cgi-bin/search.cgi?mode=tmc_biglist), also works with telnet)
 * `nc freechess.org 23` — Chess Game (also works with telnet)
 * `nc igs.joyjoy.net 6969` - play/watch the game of Go (also works with telnet))
