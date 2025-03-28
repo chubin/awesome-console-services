@@ -88,6 +88,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## Geolocation
 
+* `curl api.ip2location.io` or `curl api.ip2location.io?ip=8.8.8.8`
 * `curl ipinfo.io/8.8.8.8` or `curl ipinfo.io/8.8.8.8/loc`
 * `curl ip-api.com` or `curl ip-api.com/8.8.8.8`
 * `curl ifconfig.co/country` or `curl ifconfig.co/city` or `curl ifconfig.co/country-iso` or `http ifconfig.co/json`
