@@ -95,7 +95,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ## Text Sharing
 
-* `echo "Hello world!" | curl -F 'f:1=<-' ix.io`
+* :no_entry_sign: `echo "Hello world!" | curl -F 'f:1=<-' ix.io`
 * `echo "Hello world!" | curl -F file=@- 0x0.st`
 * `echo "Hello world!" | curl -F 'clbin=<-' https://clbin.com`
 * `echo "Hello world!" | nc termbin.com 9999`
