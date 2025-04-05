@@ -219,6 +219,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl givemeguid.com` - guid
 * `nc towel.blinkenlights.nl 666` - IT excuses (also works with telnet)
 * `curl -s 'https://api-inference.huggingface.co/models/distilgpt2' --data-raw '"what is the meaning of life?"' | jq '.[].generated_text'` - generate text using the GPT2 AI model from a seed string
+* `curl -L fir3.link` - generate random Soulsborne messages
 
 ## Entertainment and Games
 
