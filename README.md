@@ -29,6 +29,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 ### Inline
 
+* `curl api.ipquery.io`
 * `curl l2.io/ip`
 * `curl https://echoip.de`
 * `curl ifconfig.me`
