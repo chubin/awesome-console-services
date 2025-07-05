@@ -220,6 +220,10 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `nc towel.blinkenlights.nl 666` - IT excuses (also works with telnet)
 * `curl -s 'https://api-inference.huggingface.co/models/distilgpt2' --data-raw '"what is the meaning of life?"' | jq '.[].generated_text'` - generate text using the GPT2 AI model from a seed string
 
+## E-Commerce
+
+* `ssh stickr.shop` — the renegade, CLI-only sticker shop. Buy stickers via ssh.
+
 ## Entertainment and Games
 
 * `ssh -o StrictHostKeyChecking=no watch.ascii.theater` - stream free text-based movies in your terminal 
