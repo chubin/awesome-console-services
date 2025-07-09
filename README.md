@@ -223,6 +223,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## E-Commerce
 
 * `ssh stickr.shop` — the renegade, CLI-only sticker shop. Buy stickers via ssh.
+* `ssh terminal.shop` — buy coffee via ssh.
 
 ## Entertainment and Games
 
