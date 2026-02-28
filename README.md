@@ -290,6 +290,7 @@ Useful scripts, that can be run with just one line of code, but where, still loc
 * `curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -`
 * `curl -sL https://raw.githubusercontent.com/dylanaraps/neofetch/master/neofetch | bash`
 * `curl -sL https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash`
+* [dna-claude-analysis](https://github.com/shmlkv/dna-claude-analysis) — personal genome analysis toolkit; Python scripts analyze raw DNA data across 17 categories and generate a terminal-style single-page HTML visualization
 
 ## Clients
 
