@@ -84,6 +84,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl https://ipapi.co/json`
 * `curl -L jsonip.com`
 * `curl gd.geobytes.com/GetCityDetails`
+* `curl agent-gateway-kappa.vercel.app/ip/json`
 * `curl ip.jsontest.com`
 
 ## Geolocation
@@ -93,6 +94,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl ip-api.com` or `curl ip-api.com/8.8.8.8`
 * `curl ifconfig.co/country` or `curl ifconfig.co/city` or `curl ifconfig.co/country-iso` or `http ifconfig.co/json`
 * `curl ifconfig.es/geo` or `curl ifconfig.es/json` or `curl ifconfig.es/country` or `curl ifconfig.es/code` or `curl ifconfig.es/city` or `curl ifconfig.es/latitude` or `curl ifconfig.es/longitude`
+* `curl agent-gateway-kappa.vercel.app/ip/json` or `curl agent-gateway-kappa.vercel.app/ip/geo/8.8.8.8` — IP geolocation with country, timezone, coordinates
 
 ## Text Sharing
 
