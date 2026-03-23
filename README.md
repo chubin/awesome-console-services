@@ -74,6 +74,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl https://dnsjson.com/resolver.dnscrypt.info/TXT.json`
 * `curl -L https://edns.ip-api.com/json`
 * `curl 'api.hackertarget.com/zonetransfer/?q=zonetransfer.me'` - DNS Zone Transfer
+* `curl 'intodns.ai/api/scan/quick?domain=example.com'` - DNS & email security scan (SPF, DKIM, DMARC, DNSSEC)
 
 ### JSON only
 
@@ -137,8 +138,11 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl -s "https://urlecho.appspot.com/echo?body=Hello+World"` - HTTP response defined in the request parameters
 * `curl -s "https://urlreq.appspot.com/req?method=GET&url=https://l2.io/ip"` - HTTP proxy makes new requests based on input parameters
 * `curl -s "https://api.hackertarget.com/nmap/?q=93.184.216.34"` - TCP port scan using NMAP
+* `curl 'intodns.ai/api/scan/quick?domain=example.com'` - DNS & email security scan (SPF, DKIM, DMARC, DNSSEC)
 * `curl -s "https://api.hackertarget.com/pagelinks/?q=msn.com"` - Extract all links from a page
+* `curl 'intodns.ai/api/scan/quick?domain=example.com'` - DNS & email security scan (SPF, DKIM, DMARC, DNSSEC)
 * `curl -s "https://api.hackertarget.com/whois/?q=google.com"` - Whois lookup
+* `curl 'intodns.ai/api/scan/quick?domain=example.com'` - DNS & email security scan (SPF, DKIM, DMARC, DNSSEC)
 * `curl -s "https://jsonplaceholder.typicode.com/users"` - Useful tool to retrieve fake api data
 * `ssh unix50@unix50.org - password is unix50` - Create and use instances of historical UNIX systems
 * `ssh new@sdf.org` - Create a free UNIX shell account to be used with the SDF Public Access UNIX System
@@ -203,6 +207,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 * `curl cheat.sh` — UNIX/Linux commands cheat sheets using curl ([chubin/cheat.sh](https://github.com/chubin/cheat.sh))
 * `curl 'https://api.hackertarget.com/subnetcalc/?q=192.168.1.0/24'` Subnet calculator
+* `curl 'intodns.ai/api/scan/quick?domain=example.com'` - DNS & email security scan (SPF, DKIM, DMARC, DNSSEC)
 * `gopher://telcodata.us:70` - NPA/NXX Lookup
 * `gopher://gopher.floodgap.com/1/world` - all known gopher servers
 
