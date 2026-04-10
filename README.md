@@ -144,6 +144,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `ssh new@sdf.org` - Create a free UNIX shell account to be used with the SDF Public Access UNIX System
 * `dig help @dns.toys` - Lists a plethora of available services from [dns.toys](https://www.dns.toys/)
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=chubin_awesome-console-services) - Follow developers on GitHub and see what repos they star. Like a social feed for repo discovery.
 ## Cryptography
 
 * `curl https://ja3er.com/search/535886c8d0a1b14f02298967bb990171` - SSL fingerprint search
