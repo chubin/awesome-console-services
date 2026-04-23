@@ -139,6 +139,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl -s "https://api.hackertarget.com/nmap/?q=93.184.216.34"` - TCP port scan using NMAP
 * `curl -s "https://api.hackertarget.com/pagelinks/?q=msn.com"` - Extract all links from a page
 * `curl -s "https://api.hackertarget.com/whois/?q=google.com"` - Whois lookup
+* `curl -s "https://hackmyip.com/api/ip"` - IP address, geolocation, ISP and privacy check ([HackMyIP](https://hackmyip.com))
 * `curl -s "https://jsonplaceholder.typicode.com/users"` - Useful tool to retrieve fake api data
 * `ssh unix50@unix50.org - password is unix50` - Create and use instances of historical UNIX systems
 * `ssh new@sdf.org` - Create a free UNIX shell account to be used with the SDF Public Access UNIX System

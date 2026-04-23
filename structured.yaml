@@ -80,6 +80,8 @@ by_category:
       brow.sh:
         tags: [ssh]
   - tools:
+      hackmyip.com:
+        tags: [curl]
       qrenco.de:
         tags: [curl]
         repository: https://github.com/chubin/qrenco.de
