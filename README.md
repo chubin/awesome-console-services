@@ -269,6 +269,7 @@ Telnet/SSH-based games:
 * `ssh slashem@slashem.me` - nethack and others
 * `ssh rodney@rlgallery.org` - rogue; password: yendor
 * `ssh pong.brk.st` - singleplayer pong
+* `ssh cli.poker` - multiplayer Texas Hold'em poker
 * `ssh tty.sdf.org` - requires you to [make an account](https://sdf.org) first
 * `ssh -p 8080 -l magnetic magneticscrolls.net` - interactive fiction text adventure games developed by Magnetic Scrolls 
 * `nc aardmud.org 23` — MUD (MUD list [here](http://www.mudconnect.com/cgi-bin/search.cgi?mode=tmc_biglist), also works with telnet)
