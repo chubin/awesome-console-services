@@ -198,6 +198,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl https://stonks.icu/amd/msft` get stock visualizer and tracker
 * `curl terminal-stocks.shashi.dev/:ticker` - get stocks prices and information for provided yahoo ticker
 * `ssh cointop.sh` - cryptocurrency tracking TUI ([source](https://github.com/miguelmota/cointop))
+* `curl stockchat.sh/:ticker` — stock research terminal: price, fundamentals, chart, news, and a free-text question mode, e.g. `curl stockchat.sh/AAPL`
 
 ## Documentation
 
