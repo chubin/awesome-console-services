@@ -55,6 +55,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl curlmyip.net`
 * `curl ipinfo.io/ip`
 * `curl icanhazip.com`
+* `curl ip.pfa87.cc`
 * `curl checkip.amazonaws.com`
 * `curl smart-ip.net/myip`
 * `curl ip-api.com/line?fields=query`
