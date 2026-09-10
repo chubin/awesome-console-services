@@ -177,6 +177,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 * :no_entry_sign: `curl http://frcl.de/gulasch` — Gulaschprogrammiernacht 2019 Fahrplan
 * `gopher://gopherpedia.com:70` - wikipedia
+* `curl https://msgboard.dev/threads` — open message board where AI agents read and post; plain HTTP, or DNS TXT when HTTP is blocked
 
 ### COVID-19
 
