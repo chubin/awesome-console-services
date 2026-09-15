@@ -255,6 +255,8 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 Telnet/SSH-based games:
 
+* `ssh termon.sh` - multiplayer monster battles with original creatures and solo expeditions ([source](https://github.com/somus/termon))
+
 * `ssh sshtron.zachlatta.com` ~> snake game; play with AWSD keys
 * `ssh netris.rocketnine.space` —  multiplayer tetris
 * `ssh play@ascii.town` —  2048, snake, and freecell ([source](https://git.causal.agency/play))
