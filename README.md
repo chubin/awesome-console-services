@@ -143,6 +143,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `ssh unix50@unix50.org - password is unix50` - Create and use instances of historical UNIX systems
 * `ssh new@sdf.org` - Create a free UNIX shell account to be used with the SDF Public Access UNIX System
 * `dig help @dns.toys` - Lists a plethora of available services from [dns.toys](https://www.dns.toys/)
+* `curl -s "https://l2calendar.com/api/servers" | jq` - upcoming Lineage 2 private server openings by chronicle, as JSON ([source](https://l2calendar.com))
 
 ## Cryptography
 

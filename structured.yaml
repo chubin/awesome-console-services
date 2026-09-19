@@ -83,6 +83,9 @@ by_category:
       qrenco.de:
         tags: [curl]
         repository: https://github.com/chubin/qrenco.de
+      l2calendar.com:
+        tags: [curl, json]
+        repository: https://github.com/Dreiev/l2calendar-api-docs
   - monitoring:
       ping.gg:
         tags: [curl]
