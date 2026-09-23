@@ -91,6 +91,8 @@ by_category:
         tags: [curl]
       graph.no:
         tags: [finger]
+      t.wxs.us:
+        tags: [ssh, curl]
   - news:
       snf-878293.vm.okeanos.grnet.gr:
         tags: [curl]
