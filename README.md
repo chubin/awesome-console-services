@@ -159,6 +159,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `finger oslo@graph.no`
 * `nc rainmaker.wunderground.com 3000` (also works with telnet)
 * `curl https://tgftp.nws.noaa.gov/data/observations/metar/stations/KAAO.TXT` - METAR from the specified ICAO
+* `ssh -t t.wxs.us 48201` or `curl t.wxs.us/48201` - current US weather and forecasts by ZIP code over ssh and curl.
 
 ## News
 
