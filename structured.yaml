@@ -143,6 +143,9 @@ by_category:
       node-web-console.glitch.me:
         tags: [curl,emoji,race]
         repository: https://github.com/fourtonfish/node-web-console
+      three.ws/tty:
+        tags: [curl,3d,animation]
+        repository: https://github.com/nirholas/three.ws
   - networking:
       speedtest.py:
         tags: [script]
