@@ -242,6 +242,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl ascii.live/forrest` - run Forrest, run!
 * `curl ascii.live/nyan` - watch Nyan Cat
 * `curl https://poptart.spinda.net` — fullscreen colorized Nyan Cat
+* `curl three.ws/tty` - watch a rigged 3D character walk and spin in your terminal, rendered on the server with no GPU ([source](https://github.com/nirholas/three.ws))
 * `gopher://fld.gp:70` - gopher resources / news / weather / entertainment
 * `gopher://mozz.us:70` - games, drink recipes, and other
 * `gopher://port70.net/1board/b` - 4chan
