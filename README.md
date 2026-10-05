@@ -177,6 +177,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 * :no_entry_sign: `curl http://frcl.de/gulasch` — Gulaschprogrammiernacht 2019 Fahrplan
 * `gopher://gopherpedia.com:70` - wikipedia
+* `curl status.live/ski/vail` or `curl status.live/surf/pipeline` — live ski lift status, theme park ride waits, national park alerts and surf buoy readings, read from the source
 
 ### COVID-19
 
