@@ -290,6 +290,7 @@ Useful scripts, that can be run with just one line of code, but where, still loc
 * `curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -`
 * `curl -sL https://raw.githubusercontent.com/dylanaraps/neofetch/master/neofetch | bash`
 * `curl -sL https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash`
+* `curl -fsSL https://github.com/vpshostreview/vhr-vps-benchmark/releases/latest/download/vhr-bench | bash -s -- --cleanup`
 
 ## Clients
 
