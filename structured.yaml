@@ -13,8 +13,6 @@ by_category:
         tags: [curl, plain]
       ident.me:
         tags: [curl, plain]
-      canihazip.com:
-        tags: [curl, plain]
       tnx.nl:
         tags: [curl, plain]
       wgetip.com:
@@ -141,7 +139,7 @@ by_category:
         tags: [curl]
         repository: https://github.com/master-atul/byemck
       node-web-console.glitch.me:
-        tags: [curl,emoji,race]
+        tags: [curl, emoji, race]
         repository: https://github.com/fourtonfish/node-web-console
   - networking:
       speedtest.py:

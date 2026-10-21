@@ -33,9 +33,8 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl https://echoip.de`
 * `curl ifconfig.me`
 * `curl ipecho.net/plain`
-* `curl -L ident.me` #[API](http://api.ident.me)
-* `curl -L canihazip.com/s`
-* `curl -L tnx.nl/ip`
+* `curl ident.me` #[API](http://api.ident.me)
+* `curl tnx.nl/ip`
 * `curl wgetip.com`
 * `curl whatismyip.akamai.com`
 * `curl ip.tyk.nu`
@@ -59,7 +58,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `curl smart-ip.net/myip`
 * `curl ip-api.com/line?fields=query`
 * `curl ifconfig.io/ip`
-* `curl -s ip.liquidweb.com`
+* `curl ip.liquidweb.com`
 * `curl ifconfig.es`
 * `curl ipaddress.sh`
 * `curl 2ip.ru`
