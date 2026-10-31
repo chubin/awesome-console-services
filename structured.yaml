@@ -113,6 +113,8 @@ by_category:
       cheat.sh:
         tags: [curl]
         repository: https://github.com/chubin/cheat.sh
+      latestat.com:
+        tags: [curl]
   - dictionary:
       dict.org:
         tags: [dict]

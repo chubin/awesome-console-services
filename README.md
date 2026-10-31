@@ -202,6 +202,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 ## Documentation
 
 * `curl cheat.sh` — UNIX/Linux commands cheat sheets using curl ([chubin/cheat.sh](https://github.com/chubin/cheat.sh))
+* `curl latestat.com/php` — latest version and end-of-life dates for 500+ products (`?v=8.3.4` checks yours)
 * `curl 'https://api.hackertarget.com/subnetcalc/?q=192.168.1.0/24'` Subnet calculator
 * `gopher://telcodata.us:70` - NPA/NXX Lookup
 * `gopher://gopher.floodgap.com/1/world` - all known gopher servers
