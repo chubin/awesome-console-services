@@ -143,6 +143,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `ssh unix50@unix50.org - password is unix50` - Create and use instances of historical UNIX systems
 * `ssh new@sdf.org` - Create a free UNIX shell account to be used with the SDF Public Access UNIX System
 * `dig help @dns.toys` - Lists a plethora of available services from [dns.toys](https://www.dns.toys/)
+* `curl -s "https://hproxy.com/api/proxy-list?protocol=socks5&country=US&limit=5"` - free proxies checked around the clock, one ip:port per line, filter by protocol and country, no API key ([hproxy-com/free-proxy-list](https://github.com/hproxy-com/free-proxy-list))
 
 ## Cryptography
 
