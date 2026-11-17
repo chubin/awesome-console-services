@@ -54,6 +54,8 @@ by_category:
         tags: [curl]
       ipinfo.io:
         tags: [curl]
+      api.internetdata.io:
+        tags: [curl]
       ifconfig.co:
         tags: [curl]
       ifconfig.es:
