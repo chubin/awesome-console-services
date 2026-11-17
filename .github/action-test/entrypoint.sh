@@ -140,6 +140,8 @@ test_curl 200 wtfismyip.com/json
 echo -e "### Geolocation"
 test_curl 200 ipinfo.io/8.8.8.8
 test_curl 200 ipinfo.io/8.8.8.8/loc
+test_curl 200 api.internetdata.io/myip
+test_curl 200 api.internetdata.io/8.8.8.8
 test_curl 200 ifconfig.co/country
 test_curl 200 ifconfig.co/city
 test_curl 200 ifconfig.co/country-iso
