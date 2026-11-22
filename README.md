@@ -143,6 +143,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 * `ssh unix50@unix50.org - password is unix50` - Create and use instances of historical UNIX systems
 * `ssh new@sdf.org` - Create a free UNIX shell account to be used with the SDF Public Access UNIX System
 * `dig help @dns.toys` - Lists a plethora of available services from [dns.toys](https://www.dns.toys/)
+* `curl https://cloc.info/github.com/torvalds/libgit2` - Count lines of code for any public Git repository via [cloc.info](https://cloc.info)
 
 ## Cryptography
 
