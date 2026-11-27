@@ -152,6 +152,7 @@ Structured data of the list (kept in sync) is in [structured.yaml](structured.ya
 
 * `curl ping.gl`
 * `curl https://status.plaintext.sh/t` - Check status pages of common services
+* `curl https://watchfor.io/tls/github.com` - TLS grade, certificate and protocol check for any host (DNS propagation, email, headers and WHOIS checks are listed at [watchfor.io/terminal](https://watchfor.io/terminal))
 
 ## Weather
 

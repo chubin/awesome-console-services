@@ -86,6 +86,8 @@ by_category:
   - monitoring:
       ping.gg:
         tags: [curl]
+      watchfor.io:
+        tags: [curl]
   - weather:
       wttr.in:
         tags: [curl]
